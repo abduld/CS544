@@ -1,0 +1,5 @@
+I have been asked when a Quasi-Newton method implemented using conjugate gradient is better than Polak Ribiere, or vice versa. I should very much like to know a better answer than the one I gave (that I always use Quasi-Newton first). Using some problems from your domain, and in groups no larger than four, produce an experimental answer to this question. You should compare small problems (10's-100's of variables) and large problems (1000's or more variables). You should compare cases where you can expect large third derivatives to cases where the Hessian shouldn't change much. Does the restart strategy in Polak-Ribiere make a difference?
+
+Note that I am encouraging clever experimentation here, rather than blank coding efficiency. You should be able to get good implementations of each method from various locations, and it's fine to use those. Appropriate comparisons are the number of steps, the speed of convergence, the resources required, etc.
+
+This is a broad MP intended to be educational. I will grade on quality of experimental concept and of argument from data. Submit PDF's to me by Mar 11. Email them to me at daf@uiuc.edu, with "CS544" in the header
