@@ -23,7 +23,7 @@ oFindMinimum[f_, vars_List, start_List, opts:OptionsPattern[]] :=
 				"Function" -> Unevaluated[f],
 				"Variables" -> vars,
 				"Start" -> start,
-				"Points" -> pts,
+				"Points" -> PrependTo[pts, start],
 				"Solution" -> sol,
 				"EvaluationCount" -> evalCount,
 				"StepCount" -> stepCount
@@ -101,7 +101,7 @@ CompareMethods[f_, vars_, start_] :=
 		{
 			TraditionalForm[First@f],
 			Labeled[
-				GraphicsRow[{qn["Plot"]}, ImageSize -> Scaled[0.2]],
+				GraphicsRow[{qn["Plot"]}, ImageSize -> Scaled[0.3]],
 				StringJoin[{
 					"Function Evaluation Count = ",
 					ToString[qn["EvaluationCount"]],
@@ -110,7 +110,7 @@ CompareMethods[f_, vars_, start_] :=
 				}]
 			],
 			Labeled[
-				GraphicsRow[{pr["Plot"]}, ImageSize -> Scaled[0.15]],
+				GraphicsRow[{pr["Plot"]}, ImageSize -> Scaled[0.3]],
 				StringJoin[{
 					"Function Evaluation Count = ",
 					ToString[pr["EvaluationCount"]],
