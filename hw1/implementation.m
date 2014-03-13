@@ -4,21 +4,28 @@ Internal`SetVisualizationOptions[MeshRegions2D -> False]
 
 ClearAll[oFindMinimum]
 SetAttributes[oFindMinimum, {HoldAll}];
-oFindMinimum[f_, vars_List, start_List, opts:OptionsPattern[]] :=
-	Module[{rs, sol, pts, time, evalCount = 0, stepCount = 0},
+oFindMinimum[f_, vars_, start_, opts:OptionsPattern[]] :=
+	Module[{rs, sol, pts, time, arg, evalCount = 0, stepCount = 0},
+		arg = If[start === None,
+			vars,
+			MapThread[List, {vars, start}]
+		];
 		rs = Reap[
 			AbsoluteTiming[
 				FindMinimum[Unevaluated[f],
-								  MapThread[List, {vars, start}],
-								  opts,
-								  StepMonitor :> (stepCount++; Sow[vars]),
-								  EvaluationMonitor :> (evalCount++;)
+							arg,
+							opts,
+							StepMonitor :> (stepCount++; Sow[vars]),
+							EvaluationMonitor :> (evalCount++;)
 				]
 			]
 		];
 
 		{time, sol} = First[rs];
 		pts = rs[[2, 1]];
+		If[start != None,
+			PrependTo[pts, start]
+		];
 
 		MinimumInformation[
 			<|
@@ -26,7 +33,7 @@ oFindMinimum[f_, vars_List, start_List, opts:OptionsPattern[]] :=
 				"Function" -> Unevaluated[f],
 				"Variables" -> vars,
 				"Start" -> start,
-				"Points" -> PrependTo[pts, start],
+				"Points" -> pts,
 				"Solution" -> sol,
 				"EvaluationCount" -> evalCount,
 				"StepCount" -> stepCount
@@ -97,33 +104,50 @@ MinimumInformation[as_Association][v_] /; KeyExistsQ[as, v] :=
 
 ClearAll[CompareMethods]
 SetAttributes[CompareMethods, {HoldAll}];
-CompareMethods[f_, vars_, start_] :=
-	Module[{qn, pr},
-		qn = oFindMinimum[f, vars, start, Method -> {"QuasiNewton", "StepMemory" -> 10}];
+CompareMethods[f_, vars_, start_:None, showGraphicsQ_:True] :=
+	Module[{qn, pr, prtext, qntext},
+		qn = oFindMinimum[f, vars, start, Method -> {"QuasiNewton", "StepMemory" -> Infinity}];
 		pr = oFindMinimum[f, vars, start, Method -> {"ConjugateGradient", Method -> "PolakRibiere"}];
-		{
-			TraditionalForm[First@f],
-			Labeled[
-				GraphicsRow[{qn["Plot"]}, ImageSize -> Scaled[0.3]],
-				StringJoin[{
-					"Evaluation Time = ",
-					ToString[qn["EvaluationTime"]],
-					"\nFunction Evaluation Count = ",
-					ToString[qn["EvaluationCount"]],
-					"\nIteration Count = ",
-					ToString[qn["StepCount"]]
-				}]
-			],
-			Labeled[
-				GraphicsRow[{pr["Plot"]}, ImageSize -> Scaled[0.3]],
-				StringJoin[{
+		prtext = StringJoin[{
 					"Evaluation Time = ",
 					ToString[pr["EvaluationTime"]],
 					"\nFunction Evaluation Count = ",
 					ToString[pr["EvaluationCount"]],
 					"\nIteration Count = ",
 					ToString[pr["StepCount"]]
-				}]
-			]
-		}
+				}];
+		qntext = StringJoin[{
+					"Evaluation Time = ",
+					ToString[qn["EvaluationTime"]],
+					"\nFunction Evaluation Count = ",
+					ToString[qn["EvaluationCount"]],
+					"\nIteration Count = ",
+					ToString[qn["StepCount"]]
+				}];
+		If[showGraphicsQ === True && start =!= None,
+			{
+				TraditionalForm[First@f],
+				Labeled[
+					GraphicsRow[{qn["Plot"]}, ImageSize -> Scaled[0.3]],
+					qntext
+				],
+				Labeled[
+					GraphicsRow[{pr["Plot"]}, ImageSize -> Scaled[0.3]],
+					prtext
+				]
+			},
+			<|
+				"VariableCount" -> Length[vars],
+				"QuasiNewton" -> <|
+					"EvaluationTime" -> qn["EvaluationTime"],
+					"EvaluationCount" -> qn["EvaluationCount"],
+					"StepCount" -> qn["StepCount"]
+				|>,
+				"PolakRibiere" -> <|
+					"EvaluationTime" -> pr["EvaluationTime"],
+					"EvaluationCount" -> pr["EvaluationCount"],
+					"StepCount" -> pr["StepCount"]
+				|>
+			|>
+		]
 	]
