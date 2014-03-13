@@ -5,21 +5,24 @@ Internal`SetVisualizationOptions[MeshRegions2D -> False]
 ClearAll[oFindMinimum]
 SetAttributes[oFindMinimum, {HoldAll}];
 oFindMinimum[f_, vars_List, start_List, opts:OptionsPattern[]] :=
-	Module[{rs, sol, pts, evalCount = 0, stepCount = 0},
+	Module[{rs, sol, pts, time, evalCount = 0, stepCount = 0},
 		rs = Reap[
-			FindMinimum[Unevaluated[f],
+			AbsoluteTiming[
+				FindMinimum[Unevaluated[f],
 								  MapThread[List, {vars, start}],
 								  opts,
 								  StepMonitor :> (stepCount++; Sow[vars]),
 								  EvaluationMonitor :> (evalCount++;)
+				]
 			]
 		];
 
-		sol = First[rs];
+		{time, sol} = First[rs];
 		pts = rs[[2, 1]];
 
 		MinimumInformation[
 			<|
+				"EvaluationTime" -> time,
 				"Function" -> Unevaluated[f],
 				"Variables" -> vars,
 				"Start" -> start,
@@ -103,18 +106,22 @@ CompareMethods[f_, vars_, start_] :=
 			Labeled[
 				GraphicsRow[{qn["Plot"]}, ImageSize -> Scaled[0.3]],
 				StringJoin[{
-					"Function Evaluation Count = ",
+					"Evaluation Time = ",
+					ToString[qn["EvaluationTime"]],
+					"\nFunction Evaluation Count = ",
 					ToString[qn["EvaluationCount"]],
-					", Iteration Count = ",
+					"\nIteration Count = ",
 					ToString[qn["StepCount"]]
 				}]
 			],
 			Labeled[
 				GraphicsRow[{pr["Plot"]}, ImageSize -> Scaled[0.3]],
 				StringJoin[{
-					"Function Evaluation Count = ",
+					"Evaluation Time = ",
+					ToString[pr["EvaluationTime"]],
+					"\nFunction Evaluation Count = ",
 					ToString[pr["EvaluationCount"]],
-					", Iteration Count = ",
+					"\nIteration Count = ",
 					ToString[pr["StepCount"]]
 				}]
 			]
