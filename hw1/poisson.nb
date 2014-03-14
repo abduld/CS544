@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[   1035151,      17048]
-NotebookOptionsPosition[   1034736,      17031]
-NotebookOutlinePosition[   1035078,      17046]
-CellTagsIndexPosition[   1035035,      17043]
+NotebookDataLength[   1038936,      17140]
+NotebookOptionsPosition[   1038399,      17119]
+NotebookOutlinePosition[   1038741,      17134]
+CellTagsIndexPosition[   1038698,      17131]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -17016,10 +17016,8 @@ Cell[BoxData[{
             RowBox[{"A", ".", "vars"}], "-", "b"}], "]"}], ",", "vars"}], 
          "]"}]}]}]}], "]"}]}], ",", "\[IndentingNewLine]", 
    RowBox[{"{", 
-    RowBox[{"n", ",", 
-     RowBox[{"{", 
-      RowBox[{"10", ",", "200", ",", "5"}], "}"}]}], "}"}]}], 
-  "\[IndentingNewLine]", "]"}]}], "Input",
+    RowBox[{"n", ",", "10", ",", "200"}], "}"}]}], "\[IndentingNewLine]", 
+  "]"}]}], "Input",
  CellChangeTimes->{{3.6035893066609106`*^9, 3.6035893550547495`*^9}, {
   3.603589931488387*^9, 3.603589934682706*^9}, {3.603593633879589*^9, 
   3.6035936481480155`*^9}, {3.6035944373009233`*^9, 3.6035944578989825`*^9}, {
@@ -17027,7 +17025,97 @@ Cell[BoxData[{
   3.603598759216071*^9}, {3.603722463344936*^9, 3.603722488705929*^9}, {
   3.6037389002603073`*^9, 3.603738900506481*^9}, {3.6037390659279027`*^9, 
   3.603739066974648*^9}, {3.6037393000060563`*^9, 3.6037393661770344`*^9}, {
-  3.6037394061383934`*^9, 3.603739406560711*^9}}]
+  3.6037394061383934`*^9, 3.603739406560711*^9}, {3.603752367941058*^9, 
+  3.603752388009303*^9}, {3.6037525389134407`*^9, 3.6037525414522495`*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData["res"], "Input",
+ CellChangeTimes->{{3.603752324724398*^9, 3.603752341311183*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"10", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{
+     "68", ",", "\<\"Evaluation Time = 0.013009\\nFunction Evaluation Count = \
+1812\\nIteration Count = 57\"\>", 
+      ",", "\<\"Evaluation Time = 0.007005\\nFunction Evaluation Count = \
+960\\nIteration Count = 21\"\>"}], "}"}]}], ",", 
+   RowBox[{"11", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{
+     "86", ",", "\<\"Evaluation Time = 0.027019\\nFunction Evaluation Count = \
+3200\\nIteration Count = 69\"\>", 
+      ",", "\<\"Evaluation Time = 0.013008\\nFunction Evaluation Count = 1664\
+\\nIteration Count = 25\"\>"}], "}"}]}], ",", 
+   RowBox[{"12", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{
+     "106", ",", "\<\"Evaluation Time = 0.033023\\nFunction Evaluation Count \
+= 3762\\nIteration Count = 70\"\>", 
+      ",", "\<\"Evaluation Time = 0.013009\\nFunction Evaluation Count = 1440\
+\\nIteration Count = 17\"\>"}], "}"}]}], ",", 
+   RowBox[{"13", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{
+     "114", ",", "\<\"Evaluation Time = 0.037026\\nFunction Evaluation Count \
+= 3798\\nIteration Count = 74\"\>", 
+      ",", "\<\"Evaluation Time = 0.013011\\nFunction Evaluation Count = 1458\
+\\nIteration Count = 23\"\>"}], "}"}]}], ",", 
+   RowBox[{"14", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{
+     "137", ",", "\<\"Evaluation Time = 0.072049\\nFunction Evaluation Count \
+= 5736\\nIteration Count = 82\"\>", 
+      ",", "\<\"Evaluation Time = 0.031024\\nFunction Evaluation Count = 2784\
+\\nIteration Count = 25\"\>"}], "}"}]}], ",", 
+   RowBox[{"15", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{
+     "162", ",", "\<\"Evaluation Time = 0.101074\\nFunction Evaluation Count \
+= 7263\\nIteration Count = 83\"\>", 
+      ",", "\<\"Evaluation Time = 0.030020\\nFunction Evaluation Count = 2376\
+\\nIteration Count = 25\"\>"}], "}"}]}], ",", 
+   RowBox[{"16", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{
+     "173", ",", "\<\"Evaluation Time = 0.141098\\nFunction Evaluation Count \
+= 9504\\nIteration Count = 89\"\>", 
+      ",", "\<\"Evaluation Time = 0.047033\\nFunction Evaluation Count = 3520\
+\\nIteration Count = 25\"\>"}], "}"}]}], ",", 
+   RowBox[{"17", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{
+     "201", ",", "\<\"Evaluation Time = 0.172122\\nFunction Evaluation Count \
+= 10336\\nIteration Count = 94\"\>", 
+      ",", "\<\"Evaluation Time = 0.054039\\nFunction Evaluation Count = 3536\
+\\nIteration Count = 26\"\>"}], "}"}]}], ",", 
+   RowBox[{"18", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{
+     "230", ",", "\<\"Evaluation Time = 0.238168\\nFunction Evaluation Count \
+= 11210\\nIteration Count = 90\"\>", 
+      ",", "\<\"Evaluation Time = 0.056038\\nFunction Evaluation Count = 3192\
+\\nIteration Count = 23\"\>"}], "}"}]}], ",", 
+   RowBox[{"19", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{
+     "243", ",", "\<\"Evaluation Time = 0.192138\\nFunction Evaluation Count \
+= 9922\\nIteration Count = 73\"\>", 
+      ",", "\<\"Evaluation Time = 0.085059\\nFunction Evaluation Count = 5125\
+\\nIteration Count = 25\"\>"}], "}"}]}], ",", 
+   RowBox[{"20", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{
+     "276", ",", "\<\"Evaluation Time = 0.288184\\nFunction Evaluation Count \
+= 13056\\nIteration Count = 79\"\>", 
+      ",", "\<\"Evaluation Time = 0.080057\\nFunction Evaluation Count = 4128\
+\\nIteration Count = 21\"\>"}], "}"}]}]}], "}"}]], "Output",
+ CellChangeTimes->{{3.6037523251867085`*^9, 3.603752341806507*^9}, 
+   3.6037525030869875`*^9}]
+}, Open  ]]
 },
 WindowSize->{843, 709},
 WindowMargins->{{Automatic, 57}, {Automatic, 2}},
@@ -17049,7 +17137,11 @@ Cell[558, 20, 139, 1, 30, "Text"],
 Cell[700, 23, 1030221, 16905, 362, "Input"],
 Cell[1030924, 16930, 435, 11, 52, "Input"],
 Cell[1031362, 16943, 520, 11, 72, "Input"],
-Cell[1031885, 16956, 2847, 73, 212, "Input"]
+Cell[1031885, 16956, 2893, 72, 212, "Input"],
+Cell[CellGroupData[{
+Cell[1034803, 17032, 95, 1, 31, "Input"],
+Cell[1034901, 17035, 3482, 81, 912, "Output"]
+}, Open  ]]
 }
 ]
 *)
