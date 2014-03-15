@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[   1038936,      17140]
-NotebookOptionsPosition[   1038399,      17119]
-NotebookOutlinePosition[   1038741,      17134]
-CellTagsIndexPosition[   1038698,      17131]
+NotebookDataLength[   1196837,      20639]
+NotebookOptionsPosition[   1195789,      20602]
+NotebookOutlinePosition[   1196134,      20617]
+CellTagsIndexPosition[   1196091,      20614]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -16954,6 +16954,8 @@ Cell[BoxData[{
    3.6037226337949038`*^9}, {3.60373832843841*^9, 3.6037383312644167`*^9}, 
    3.6037388020025597`*^9}],
 
+Cell[CellGroupData[{
+
 Cell[BoxData[{
  RowBox[{
   RowBox[{"res", "=", 
@@ -17028,6 +17030,20 @@ Cell[BoxData[{
   3.6037394061383934`*^9, 3.603739406560711*^9}, {3.603752367941058*^9, 
   3.603752388009303*^9}, {3.6037525389134407`*^9, 3.6037525414522495`*^9}}],
 
+Cell[BoxData["$Aborted"], "Output",
+ CellChangeTimes->{3.603908212689793*^9}]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{"DumpSave", "[", 
+  RowBox[{
+   RowBox[{"FileNameJoin", "[", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"NotebookDirectory", "[", "]"}], ",", "\"\<result.mx\>\""}], 
+     "}"}], "]"}], ",", "res"}], "]"}]], "Input",
+ CellChangeTimes->{{3.603764701020219*^9, 3.603764728764993*^9}}],
+
 Cell[CellGroupData[{
 
 Cell[BoxData["res"], "Input",
@@ -17037,89 +17053,3556 @@ Cell[BoxData[
  RowBox[{"{", 
   RowBox[{
    RowBox[{"10", "\[Rule]", 
-    RowBox[{"{", 
+    RowBox[{"<|", 
      RowBox[{
-     "68", ",", "\<\"Evaluation Time = 0.013009\\nFunction Evaluation Count = \
-1812\\nIteration Count = 57\"\>", 
-      ",", "\<\"Evaluation Time = 0.007005\\nFunction Evaluation Count = \
-960\\nIteration Count = 21\"\>"}], "}"}]}], ",", 
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "68"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "0.63100000000000000532907051820075139403`5.8206292725237585"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "1788"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "56"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "0.03200000000000000066613381477509392425`4.5257498915995305"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "960"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "21"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
    RowBox[{"11", "\[Rule]", 
-    RowBox[{"{", 
+    RowBox[{"<|", 
      RowBox[{
-     "86", ",", "\<\"Evaluation Time = 0.027019\\nFunction Evaluation Count = \
-3200\\nIteration Count = 69\"\>", 
-      ",", "\<\"Evaluation Time = 0.013008\\nFunction Evaluation Count = 1664\
-\\nIteration Count = 25\"\>"}], "}"}]}], ",", 
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "86"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "0.08999999999999999666933092612453037873`4.974842422718949"}], ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "2960"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "67"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "0.04800000000000000099920072216264088638`4.701841150655211"}], ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "1664"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "25"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
    RowBox[{"12", "\[Rule]", 
-    RowBox[{"{", 
+    RowBox[{"<|", 
      RowBox[{
-     "106", ",", "\<\"Evaluation Time = 0.033023\\nFunction Evaluation Count \
-= 3762\\nIteration Count = 70\"\>", 
-      ",", "\<\"Evaluation Time = 0.013009\\nFunction Evaluation Count = 1440\
-\\nIteration Count = 17\"\>"}], "}"}]}], ",", 
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "106"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "0.13000000000000000444089209850062616169`5.134543265586461"}], ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "3888"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "73"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "0.04800000000000000099920072216264088638`4.701841150655211"}], ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "1440"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "17"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
    RowBox[{"13", "\[Rule]", 
-    RowBox[{"{", 
+    RowBox[{"<|", 
      RowBox[{
-     "114", ",", "\<\"Evaluation Time = 0.037026\\nFunction Evaluation Count \
-= 3798\\nIteration Count = 74\"\>", 
-      ",", "\<\"Evaluation Time = 0.013011\\nFunction Evaluation Count = 1458\
-\\nIteration Count = 23\"\>"}], "}"}]}], ",", 
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "114"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "0.13200000000000000621724893790087662637`5.141173844485474"}], ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "3708"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "73"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "0.05099999999999999672484207735578820575`4.72817008937756"}], ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "1458"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "23"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
    RowBox[{"14", "\[Rule]", 
-    RowBox[{"{", 
+    RowBox[{"<|", 
      RowBox[{
-     "137", ",", "\<\"Evaluation Time = 0.072049\\nFunction Evaluation Count \
-= 5736\\nIteration Count = 82\"\>", 
-      ",", "\<\"Evaluation Time = 0.031024\\nFunction Evaluation Count = 2784\
-\\nIteration Count = 25\"\>"}], "}"}]}], ",", 
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "137"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "0.25`5.418539921951662"}], ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "5520"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "74"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "0.11000000000000000055511151231257827021`5.0619925984378495"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "2784"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "25"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
    RowBox[{"15", "\[Rule]", 
-    RowBox[{"{", 
+    RowBox[{"<|", 
      RowBox[{
-     "162", ",", "\<\"Evaluation Time = 0.101074\\nFunction Evaluation Count \
-= 7263\\nIteration Count = 83\"\>", 
-      ",", "\<\"Evaluation Time = 0.030020\\nFunction Evaluation Count = 2376\
-\\nIteration Count = 25\"\>"}], "}"}]}], ",", 
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "162"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "0.33300000000000001820765760385256726295`5.543044146785944"}], ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "6831"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "80"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "0.11000000000000000055511151231257827021`5.0619925984378495"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "2376"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "25"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
    RowBox[{"16", "\[Rule]", 
-    RowBox[{"{", 
+    RowBox[{"<|", 
      RowBox[{
-     "173", ",", "\<\"Evaluation Time = 0.141098\\nFunction Evaluation Count \
-= 9504\\nIteration Count = 89\"\>", 
-      ",", "\<\"Evaluation Time = 0.047033\\nFunction Evaluation Count = 3520\
-\\nIteration Count = 25\"\>"}], "}"}]}], ",", 
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "173"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "0.45800000000000001820765760385256726295`5.681465391283493"}], ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "8800"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "83"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "0.1660000000000000086597395920762210153`5.240708001319679"}], ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "3360"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "25"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
    RowBox[{"17", "\[Rule]", 
-    RowBox[{"{", 
+    RowBox[{"<|", 
      RowBox[{
-     "201", ",", "\<\"Evaluation Time = 0.172122\\nFunction Evaluation Count \
-= 10336\\nIteration Count = 94\"\>", 
-      ",", "\<\"Evaluation Time = 0.054039\\nFunction Evaluation Count = 3536\
-\\nIteration Count = 26\"\>"}], "}"}]}], ",", 
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "201"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "0.60299999999999998046007476659724488854`5.800917225419775"}], ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "9554"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "86"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "0.18800000000000000044408920985006261617`5.294757762543304"}], ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "3298"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "24"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
    RowBox[{"18", "\[Rule]", 
-    RowBox[{"{", 
+    RowBox[{"<|", 
      RowBox[{
-     "230", ",", "\<\"Evaluation Time = 0.238168\\nFunction Evaluation Count \
-= 11210\\nIteration Count = 90\"\>", 
-      ",", "\<\"Evaluation Time = 0.056038\\nFunction Evaluation Count = 3192\
-\\nIteration Count = 23\"\>"}], "}"}]}], ",", 
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "230"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "0.7910000000000000364153152077051345259`5.918776396777301"}], ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "11590"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "90"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "0.20799999999999999045208198822365375236`5.338663248242386"}], ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "3192"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "23"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
    RowBox[{"19", "\[Rule]", 
-    RowBox[{"{", 
+    RowBox[{"<|", 
      RowBox[{
-     "243", ",", "\<\"Evaluation Time = 0.192138\\nFunction Evaluation Count \
-= 9922\\nIteration Count = 73\"\>", 
-      ",", "\<\"Evaluation Time = 0.085059\\nFunction Evaluation Count = 5125\
-\\nIteration Count = 25\"\>"}], "}"}]}], ",", 
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "243"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "0.82599999999999995647925743469386361539`5.937579960600007"}], ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "10947"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "76"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "0.43199999999999999511501869164931122214`5.656083660094536"}], ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "5289"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "25"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
    RowBox[{"20", "\[Rule]", 
-    RowBox[{"{", 
+    RowBox[{"<|", 
      RowBox[{
-     "276", ",", "\<\"Evaluation Time = 0.288184\\nFunction Evaluation Count \
-= 13056\\nIteration Count = 79\"\>", 
-      ",", "\<\"Evaluation Time = 0.080057\\nFunction Evaluation Count = 4128\
-\\nIteration Count = 21\"\>"}], "}"}]}]}], "}"}]], "Output",
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "276"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "1.3400000000000000799360577730112709105`6.147704711644431"}], ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "14688"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "86"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "0.39600000000000001865174681370262987912`5.618295099205136"}], ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "4656"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "22"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
+   RowBox[{"21", "\[Rule]", 
+    RowBox[{"<|", 
+     RowBox[{
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "311"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "1.52499999999999991118215802998747676611`6.203869756962429"}], ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "16524"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "85"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "0.50800000000000000710542735760100185871`5.726463625563543"}], ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "5940"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "25"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
+   RowBox[{"22", "\[Rule]", 
+    RowBox[{"<|", 
+     RowBox[{
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "326"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "1.77200000000000001953992523340275511146`6.269063630830656"}], ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "17328"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "84"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "0.39700000000000001953992523340275511146`5.619390420042739"}], ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "4218"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "20"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
+   RowBox[{"23", "\[Rule]", 
+    RowBox[{"<|", 
+     RowBox[{
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "364"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "2.45999999999999996447286321199499070644`6.4115350203830035"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "22754"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "100"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "0.70799999999999996269650637259474024177`5.870633170969394"}], ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "7006"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "26"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
+   RowBox[{"24", "\[Rule]", 
+    RowBox[{"<|", 
+     RowBox[{
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "403"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "1.66900000000000003907985046680551022291`6.243056249958871"}], ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "14756"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "66"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "0.8209999999999999520383653361932374537`5.934943070399065"}], ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "7684"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "23"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
+   RowBox[{"25", "\[Rule]", 
+    RowBox[{"<|", 
+     RowBox[{
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "420"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "3.14699999999999979749532030837144702673`6.518496656192844"}], ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "22908"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "90"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "0.74299999999999999378275106209912337363`5.8915887270402"}], ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "6003"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "23"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
+   RowBox[{"26", "\[Rule]", 
+    RowBox[{"<|", 
+     RowBox[{
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "463"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "2.75700000000000011723955140041653066874`6.461036679385398"}], ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "18426"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "64"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "0.94999999999999995559107901499373838305`5.998323518568472"}], ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "7719"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "20"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
+   RowBox[{"27", "\[Rule]", 
+    RowBox[{"<|", 
+     RowBox[{
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "507"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "3.58300000000000018474111129762604832649`6.574846721445735"}], ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "22659"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "77"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "1.08200000000000007283063041541026905179`6.054827174050175"}], ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "6806"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "21"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
+   RowBox[{"28", "\[Rule]", 
+    RowBox[{"<|", 
+     RowBox[{
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "527"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "3.90799999999999991828758538758847862482`6.61255446832636"}], ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "25298"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "80"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "1.05499999999999993782751062099123373628`6.043852372913336"}], ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "7280"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "21"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
+   RowBox[{"29", "\[Rule]", 
+    RowBox[{"<|", 
+     RowBox[{
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "574"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "3.79499999999999992894572642398998141289`6.599811693511124"}], ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "23226"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "72"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "1.55899999999999994138022429979173466563`6.213446028468466"}], ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "10094"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "23"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
+   RowBox[{"30", "\[Rule]", 
+    RowBox[{"<|", 
+     RowBox[{
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "624"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "4.3559999999999998721023075631819665432`6.659687784363362"}], ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "22671"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "69"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "1.47599999999999997868371792719699442387`6.189686270766647"}], ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "8613"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "21"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
+   RowBox[{"31", "\[Rule]", 
+    RowBox[{"<|", 
+     RowBox[{
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "645"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "6.43900000000000005684341886080801486969`6.829418338371748"}], ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "29719"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "77"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "2.17700000000000004618527782440651208162`6.358458342320718"}], ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "9266"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "21"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
+   RowBox[{"32", "\[Rule]", 
+    RowBox[{"<|", 
+     RowBox[{
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "698"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "7.3369999999999997442046151263639330864`6.886118432354398"}], ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "32248"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "80"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "2.30900000000000016342482922482304275036`6.384023846196801"}], ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "10556"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "24"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
+   RowBox[{"33", "\[Rule]", 
+    RowBox[{"<|", 
+     RowBox[{
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "752"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "9.65799999999999947419837553752586245537`7.0054871143439525"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "38308"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "89"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "2.66299999999999981170617502357345074415`6.445971079718565"}], ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "12078"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "22"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
+   RowBox[{"34", "\[Rule]", 
+    RowBox[{"<|", 
+     RowBox[{
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "776"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "10.95800000000000018474111129762604832649`7.060331209378315"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "47520"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "94"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "2.32600000000000006750155989720951765776`6.387209623672054"}], ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "10530"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "21"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
+   RowBox[{"35", "\[Rule]", 
+    RowBox[{"<|", 
+     RowBox[{
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "833"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "10.58500000000000085265128291212022304535`7.045290775635055"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "43018"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "91"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "3.72599999999999997868371792719699442387`6.591842763839848"}], ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "15481"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "25"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
+   RowBox[{"36", "\[Rule]", 
+    RowBox[{"<|", 
+     RowBox[{
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "857"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "14.`7.166727948957862"}], ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "52096"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "98"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "3.39900000000000002131628207280300557613`6.551951077862684"}], ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "14504"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "24"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
+   RowBox[{"37", "\[Rule]", 
+    RowBox[{"<|", 
+     RowBox[{
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "918"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "11.67999999999999971578290569595992565155`7.088042756056005"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "41808"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "79"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", "3.5`6.5646679576299"}],
+          ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "13416"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "24"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
+   RowBox[{"38", "\[Rule]", 
+    RowBox[{"<|", 
+     RowBox[{
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "981"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "12.64600000000000079580786405131220817566`7.122553090756823"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "40750"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "73"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "4.17300000000000004263256414560601115227`6.6410482979913334"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "13529"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "24"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
+   RowBox[{"39", "\[Rule]", 
+    RowBox[{"<|", 
+     RowBox[{
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "1007"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "18.97800000000000153477230924181640148163`7.298850355578991"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "47502"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "80"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "5.46300000000000007815970093361102044582`6.758031113794207"}], ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "16008"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "24"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
+   RowBox[{"40", "\[Rule]", 
+    RowBox[{"<|", 
+     RowBox[{
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "1072"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "17.9130000000000002557953848736360669136`7.273768239181067"}], ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "53382"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "82"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "4.70300000000000029132252166164107620716`6.692974892025704"}], ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "15996"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "22"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
+   RowBox[{"41", "\[Rule]", 
+    RowBox[{"<|", 
+     RowBox[{
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "1140"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "23.23900000000000076738615462090820074081`7.38681734922572"}], ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "66816"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "96"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "5.66399999999999970157205098075792193413`6.773723157961337"}], ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "17088"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "21"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
+   RowBox[{"42", "\[Rule]", 
+    RowBox[{"<|", 
+     RowBox[{
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "1168"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "19.19000000000000127897692436818033456802`7.303674888015096"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "50148"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "77"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "7.41600000000000036948222259525209665298`6.890769634416065"}], ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "18308"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "22"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
+   RowBox[{"43", "\[Rule]", 
+    RowBox[{"<|", 
+     RowBox[{
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "1239"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "27.8449999999999988631316227838397026062`7.465347135505403"}], ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "70406"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "91"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "7.6210000000000004405364961712621152401`6.902611874906283"}], ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "18618"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "25"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
+   RowBox[{"44", "\[Rule]", 
+    RowBox[{"<|", 
+     RowBox[{
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "1311"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "24.68700000000000116529008664656430482864`7.4130682303234785"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "57405"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "77"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "8.5340000000000006963318810448981821537`6.951752551802917"}], ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "21285"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "24"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
+   RowBox[{"45", "\[Rule]", 
+    RowBox[{"<|", 
+     RowBox[{
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "1341"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "36.59599999999999653255144949071109294891`7.584033532202388"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "81774"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "100"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "7.27899999999999991473487170878797769547`6.882671632659618"}], ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "18249"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "22"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
+   RowBox[{"46", "\[Rule]", 
+    RowBox[{"<|", 
+     RowBox[{
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "1417"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "32.22099999999999653255144949071109294891`7.528738928187855"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "67962"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "85"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "10.76800000000000068212102632969617843628`7.052734960159526"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "23859"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "23"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
+   RowBox[{"47", "\[Rule]", 
+    RowBox[{"<|", 
+     RowBox[{
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "1495"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "39.04200000000000159161572810262441635132`7.612131970397123"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "73041"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "83"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "12.2539999999999995594635038287378847599`7.108877789275559"}], ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "22339"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "24"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
+   RowBox[{"48", "\[Rule]", 
+    RowBox[{"<|", 
+     RowBox[{
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "1527"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "41.58100000000000306954461848363280296326`7.639494842942213"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "74046"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "82"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "10.67600000000000015631940186722204089165`7.049008478395094"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "23220"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "22"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
+   RowBox[{"49", "\[Rule]", 
+    RowBox[{"<|", 
+     RowBox[{
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "1608"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "43.08899999999999863575794734060764312744`7.654966328474481"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "79696"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "83"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "12.04100000000000036948222259525209665298`7.101262469673808"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "24208"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "23"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
+   RowBox[{"50", "\[Rule]", 
+    RowBox[{"<|", 
+     RowBox[{
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "1690"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "61.19599999999999795363692101091146469116`7.807322949237267"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "99876"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "100"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "11.35699999999999931787897367030382156372`7.075863539063809"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "22673"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "20"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
+   RowBox[{"51", "\[Rule]", 
+    RowBox[{"<|", 
+     RowBox[{
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "1724"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "52.24000000000000198951966012828052043915`7.738603081546642"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "82052"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "82"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "14.43099999999999916155957180308178067207`7.17989633996801"}], ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "25988"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "21"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
+   RowBox[{"52", "\[Rule]", 
+    RowBox[{"<|", 
+     RowBox[{
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "1810"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "52.74099999999999965893948683515191078186`7.742748273290788"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "76076"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "72"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "13.66999999999999992894572642398998141289`7.156368427847446"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "22792"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "17"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
+   RowBox[{"53", "\[Rule]", 
+    RowBox[{"<|", 
+     RowBox[{
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "1897"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "71.4500000000000028421709430404007434845`7.8746021464066125"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "95256"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "85"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "17.87800000000000011368683772161602973938`7.272918846221278"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "25920"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "17"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
+   RowBox[{"54", "\[Rule]", 
+    RowBox[{"<|", 
+     RowBox[{
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "1934"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "87.61799999999999499777914024889469146729`7.963193248872784"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "116181"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "100"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "22.10900000000000176214598468504846096039`7.365169012968089"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "33431"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "22"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
+   RowBox[{"55", "\[Rule]", 
+    RowBox[{"<|", 
+     RowBox[{
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "2024"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "83.24699999999999988631316227838397026062`7.940968504924387"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "103454"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "87"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "28.37099999999999866417965677101165056229`7.473474557035574"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "38060"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "26"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
+   RowBox[{"56", "\[Rule]", 
+    RowBox[{"<|", 
+     RowBox[{
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "2117"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "83.93899999999999295141606125980615615845`7.944563704256252"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "98767"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "83"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "24.65800000000000125055521493777632713318`7.412557761525213"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "26175"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "17"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
+   RowBox[{"57", "\[Rule]", 
+    RowBox[{"<|", 
+     RowBox[{
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "2155"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "115.99399999999999977262632455676794052124`8.085035438417886"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "132487"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "96"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "23.13899999999999934630068310070782899857`7.38494449936181"}], ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "29360"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "14"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
+   RowBox[{"58", "\[Rule]", 
+    RowBox[{"<|", 
+     RowBox[{
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "2251"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "90.17199999999999704414221923798322677612`7.97567161564104"}], ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "94736"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "72"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "28.79299999999999926103555480949580669403`7.479886830522011"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "33234"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "20"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
+   RowBox[{"59", "\[Rule]", 
+    RowBox[{"<|", 
+     RowBox[{
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "2290"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "105.75600000000000022737367544323205947876`8.044904929449368"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "110544"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "82"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "24.63599999999999923261384537909179925919`7.412170108697841"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "27048"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "16"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
+   RowBox[{"60", "\[Rule]", 
+    RowBox[{"<|", 
+     RowBox[{
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "2389"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "141.08099999999998885868990328162908554077`8.17006844262029"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "132088"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "87"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "35.60099999999999909050529822707176208496`7.572062110364365"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "35530"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "17"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
+   RowBox[{"61", "\[Rule]", 
+    RowBox[{"<|", 
+     RowBox[{
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "2489"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "123.38500000000000511590769747272133827209`8.111862278704614"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "105570"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "72"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "39.10699999999999931787897367030382156372`7.612854414646783"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "33948"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "17"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
+   RowBox[{"62", "\[Rule]", 
+    RowBox[{"<|", 
+     RowBox[{
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "2530"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "185.31999999999999317878973670303821563721`8.288522204810741"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "151548"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "100"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "39.15100000000000335376171278767287731171`7.613342772622129"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "37230"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "18"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
+   RowBox[{"63", "\[Rule]", 
+    RowBox[{"<|", 
+     RowBox[{
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "2634"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "147.82300000000000750333128962665796279907`8.190341925118942"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "121408"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "80"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "42.38199999999999789679350215010344982147`7.647781360427151"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "40768"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "20"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
+   RowBox[{"64", "\[Rule]", 
+    RowBox[{"<|", 
+     RowBox[{
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "2740"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "162.20699999999999363353708758950233459473`8.230669505422183"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "117180"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "75"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "43.69400000000000261479726759716868400574`7.661021717623195"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "36270"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "16"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
+   RowBox[{"65", "\[Rule]", 
+    RowBox[{"<|", 
+     RowBox[{
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "2783"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "180.62100000000000932232069317251443862915`8.27736815567969"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "125280"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "78"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "52.03300000000000125055521493777632713318`7.736878779457915"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "40800"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "24"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
+   RowBox[{"66", "\[Rule]", 
+    RowBox[{"<|", 
+     RowBox[{
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "2891"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "145.12299999999999045030563138425350189209`8.182336160875874"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "96628"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "59"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "71.99200000000000443378667114302515983582`7.87788415208743"}], ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "49300"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "20"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
+   RowBox[{"67", "\[Rule]", 
+    RowBox[{"<|", 
+     RowBox[{
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "3002"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "295.96199999999998908606357872486114501953`8.491835866738127"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "172026"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "97"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "70.15200000000000102318153949454426765442`7.8666399703486665"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "46276"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "18"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
+   RowBox[{"68", "\[Rule]", 
+    RowBox[{"<|", 
+     RowBox[{
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "3047"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "326.37580309999998462444636970758438110352`8.534317866763155"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "188116"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "100"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "60.59471400000000329555405187420547008514`7.803034653274942"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "41396"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "19"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
+   RowBox[{"69", "\[Rule]", 
+    RowBox[{"<|", 
+     RowBox[{
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "3161"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "301.54929989999999406791175715625286102295`8.499958237796363"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "185802"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "95"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "63.79087950000000262207322521135210990906`7.825358503192488"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "44571"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "20"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
+   RowBox[{"70", "\[Rule]", 
+    RowBox[{"<|", 
+     RowBox[{
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "3276"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "258.88851090000002841406967490911483764648`8.433712690777273"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "154560"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "79"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "92.29645560000000159561750479042530059814`7.985784936700791"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "51888"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "21"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
+   RowBox[{"71", "\[Rule]", 
+    RowBox[{"<|", 
+     RowBox[{
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "3324"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "271.48538309999997863997123204171657562256`8.454346365215907"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "158950"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "79"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "87.20171929999999349547579186037182807922`7.961124961000514"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "56066"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "19"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
+   RowBox[{"72", "\[Rule]", 
+    RowBox[{"<|", 
+     RowBox[{
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "3442"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "279.37193439999998645362211391329765319824`8.466782688187964"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "161518"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "84"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "95.90558959999999899537215242162346839905`8.002443832876708"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "54033"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "19"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
+   RowBox[{"73", "\[Rule]", 
+    RowBox[{"<|", 
+     RowBox[{
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "3563"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "393.84471220000000357686076313257217407227`8.615924932241294"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "216720"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "97"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "78.71731909999999743376974947750568389893`7.916670208053738"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "47558"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "18"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
+   RowBox[{"74", "\[Rule]", 
+    RowBox[{"<|", 
+     RowBox[{
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "3612"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "403.45916369999997641571098938584327697754`8.626399497251597"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "210460"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "100"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "78.29655959999999481624399777501821517944`7.914342592584542"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "47044"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "13"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
+   RowBox[{"75", "\[Rule]", 
+    RowBox[{"<|", 
+     RowBox[{
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "3736"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "433.72587049999998498606146313250064849854`8.657815240617012"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "224715"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "100"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "100.21957199999999943429429549723863601685`8.021552456982079"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "55704"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "21"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
+   RowBox[{"76", "\[Rule]", 
+    RowBox[{"<|", 
+     RowBox[{
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "3861"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "455.5418703999999934239895083010196685791`8.679128213903612"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "220440"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "90"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "120.04588329999999984920577844604849815369`8.099947184788467"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "64796"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "20"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
+   RowBox[{"77", "\[Rule]", 
+    RowBox[{"<|", 
+     RowBox[{
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "3912"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "451.53274049999998851490090601146221160889`8.675289159630065"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "211152"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "89"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "110.31753150000000118780008051544427871704`8.063244448645362"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "57104"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "20"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
+   RowBox[{"78", "\[Rule]", 
+    RowBox[{"<|", 
+     RowBox[{
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "4041"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "468.9316261999999824183760210871696472168`8.691709437170031"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "212660"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "84"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "120.37954200000000071213435148820281028748`8.101152599940342"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "56938"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "18"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
+   RowBox[{"79", "\[Rule]", 
+    RowBox[{"<|", 
+     RowBox[{
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "4167"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "569.68288819999997940612956881523132324219`8.77623308784965"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "245676"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "97"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "134.96912430000000426844053436070680618286`8.150834343406007"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "65844"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "20"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
+   RowBox[{"80", "\[Rule]", 
+    RowBox[{"<|", 
+     RowBox[{
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "4225"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "594.57333389999996597907738760113716125488`8.794805340853257"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "255600"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "99"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "122.69079490000000021154846763238310813904`8.109411893495627"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "61920"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "20"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
+   RowBox[{"81", "\[Rule]", 
+    RowBox[{"<|", 
+     RowBox[{
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "4358"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "599.88998300000002927845343947410583496094`8.798671523401532"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "271006"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "100"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "116.8216809999999981073415256105363368988`8.08812336448797"}], ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "59046"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "21"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
+   RowBox[{"82", "\[Rule]", 
+    RowBox[{"<|", 
+     RowBox[{
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "4412"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "415.99059490000001915177563205361366271973`8.639683425086162"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "185256"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "73"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "130.89708840000000122927303891628980636597`8.137529899739649"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "63495"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "18"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
+   RowBox[{"83", "\[Rule]", 
+    RowBox[{"<|", 
+     RowBox[{
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "4549"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "630.66706039999996846745489165186882019043`8.820400061761298"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "270918"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "100"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "134.49144780000000309883034788072109222412`8.149294582068935"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "64989"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "20"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
+   RowBox[{"84", "\[Rule]", 
+    RowBox[{"<|", 
+     RowBox[{
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "4688"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "604.29442340000002786837285384535789489746`8.801848499754156"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "246934"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "88"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "166.63466180000000349537003785371780395508`8.24236525766568"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "74636"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "20"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
+   RowBox[{"85", "\[Rule]", 
+    RowBox[{"<|", 
+     RowBox[{
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "4744"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "577.3327275000000327054294757544994354248`8.782026090507667"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "238038"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "82"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "163.54735310000000936270225793123245239258`8.234243433043796"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "73620"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "20"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
+   RowBox[{"86", "\[Rule]", 
+    RowBox[{"<|", 
+     RowBox[{
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "4886"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "764.86047840000003361637936905026435852051`8.904182134070874"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "298684"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "98"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "170.45404369999999971696524880826473236084`8.252207221782438"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "74671"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "19"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
+   RowBox[{"87", "\[Rule]", 
+    RowBox[{"<|", 
+     RowBox[{
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "5029"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "672.09520280000003822351573035120964050293`8.848030708836744"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "255300"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "86"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "178.70486869999999157698766794055700302124`8.272736298022204"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "73186"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "18"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
+   RowBox[{"88", "\[Rule]", 
+    RowBox[{"<|", 
+     RowBox[{
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "5087"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "720.93108589999997093400452286005020141602`8.878493665594375"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "271870"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "89"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "188.08980710000000158288457896560430526733`8.294965174326185"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "76299"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "20"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
+   RowBox[{"89", "\[Rule]", 
+    RowBox[{"<|", 
+     RowBox[{
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "5234"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "652.3312266000000363419530913233757019043`8.835068081646467"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "239220"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "76"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "173.16831510000000093896233011037111282349`8.259068344632713"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "68222"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "19"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
+   RowBox[{"90", "\[Rule]", 
+    RowBox[{"<|", 
+     RowBox[{
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "5383"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "879.15890709999996488477336242794990539551`8.964667293745116"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "315552"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "99"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "198.20381839999998874191078357398509979248`8.317711930200202"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "78432"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "21"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
+   RowBox[{"91", "\[Rule]", 
+    RowBox[{"<|", 
+     RowBox[{
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "5443"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "719.37193000000002029992174357175827026367`8.877553400857273"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "255420"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "81"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "219.08090590000000474901753477752208709717`8.361204441348667"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "83248"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "20"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
+   RowBox[{"92", "\[Rule]", 
+    RowBox[{"<|", 
+     RowBox[{
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "5594"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "984.13840400000003683089744299650192260742`9.013656092876245"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "335120"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "100"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "210.97109499999999115971149876713752746582`8.344822870274388"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "80240"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "20"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
+   RowBox[{"93", "\[Rule]", 
+    RowBox[{"<|", 
+     RowBox[{
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "5748"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "862.94328570000004674511728808283805847168`8.956582167260295"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "283680"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "83"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "276.15461269999997284685377962887287139893`8.461752215061395"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "100470"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "22"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
+   RowBox[{"94", "\[Rule]", 
+    RowBox[{"<|", 
+     RowBox[{
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "5810"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "1068.18980830000009518698789179325103759766`9.049248343287779"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "348000"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "97"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "256.36663409999999885258148424327373504639`8.429461414745811"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "91000"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "21"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
+   RowBox[{"95", "\[Rule]", 
+    RowBox[{"<|", 
+     RowBox[{
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "5967"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "1033.44533419999993384408298879861831665039`9.03488742212567"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "329137"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "94"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "222.67126490000001126645656768232583999634`8.368264089449028"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "77444"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "18"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
+   RowBox[{"96", "\[Rule]", 
+    RowBox[{"<|", 
+     RowBox[{
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "6125"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "958.79887029999997594131855294108390808105`9.00232742693623"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "299620"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "81"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "267.70876820000000861909938976168632507324`8.448262509040761"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "90730"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "20"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
+   RowBox[{"97", "\[Rule]", 
+    RowBox[{"<|", 
+     RowBox[{
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "6190"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "1202.87527550000004339381121098995208740234`9.10082051155025"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "372064"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "97"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "245.78457599999998706152837257832288742065`8.411154538907905"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "82446"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "19"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
+   RowBox[{"98", "\[Rule]", 
+    RowBox[{"<|", 
+     RowBox[{
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "6351"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "1017.92378220000000510481186211109161376953`9.02831517437549"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "303020"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "81"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "256.83268070000002580854925327003002166748`8.430250198037182"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "82840"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "19"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
+   RowBox[{"99", "\[Rule]", 
+    RowBox[{"<|", 
+     RowBox[{
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "6515"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "923.56534729999998489802237600088119506836`8.986067542853128"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "265920"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "72"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "295.6145584999999869069142732769250869751`8.491325731772784"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "93072"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "20"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
+   RowBox[{"100", "\[Rule]", 
+    RowBox[{"<|", 
+     RowBox[{
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "6581"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "1115.70755959999996775877662003040313720703`9.068150288978536"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "321772"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "81"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "301.19311629999998558560037054121494293213`8.499444955220348"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "95172"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "19"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
+   RowBox[{"101", "\[Rule]", 
+    RowBox[{"<|", 
+     RowBox[{
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "6748"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "1440.59104470000011133379302918910980224609`9.179140623977506"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "408516"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "99"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "310.02499940000001288353814743459224700928`8.511996628609763"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "98090"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "18"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
+   RowBox[{"102", "\[Rule]", 
+    RowBox[{"<|", 
+     RowBox[{
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "6916"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "1469.17890319999992243538144975900650024414`9.187674596708932"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "409460"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "100"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "315.55555240000001049338607117533683776855`8.519675739544393"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "96760"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "20"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
+   RowBox[{"103", "\[Rule]", 
+    RowBox[{"<|", 
+     RowBox[{
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "6984"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "1417.76476230000002942688297480344772338867`9.17220409129871"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "380385"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "93"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "334.68446510000001126172719523310661315918`8.545235467651372"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "99540"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "20"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
+   RowBox[{"104", "\[Rule]", 
+    RowBox[{"<|", 
+     RowBox[{
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "7156"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "1523.47175949999996191763784736394882202148`9.203434321423488"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "413162"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "94"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "383.30500000000000682121026329696178436279`8.604144397700287"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "114018"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "19"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
+   RowBox[{"105", "\[Rule]", 
+    RowBox[{"<|", 
+     RowBox[{
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "7225"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "1437.08556560000010904332157224416732788086`9.17808254053814"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "381276"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "88"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "323.66836360000002059678081423044204711914`8.530700165399535"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "94696"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "20"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
+   RowBox[{"106", "\[Rule]", 
+    RowBox[{"<|", 
+     RowBox[{
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "7400"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "1748.64484700000002703745849430561065673828`9.26330152570262"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "458292"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "100"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "325.91558830000002444648998789489269256592`8.53370504622335"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "93684"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "18"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
+   RowBox[{"107", "\[Rule]", 
+    RowBox[{"<|", 
+     RowBox[{
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "7576"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "1829.35091680000004998873919248580932617188`9.282896935656895"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "461020"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "100"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "391.26712279999998145285644568502902984619`8.613073270031794"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "110075"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "20"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
+   RowBox[{"108", "\[Rule]", 
+    RowBox[{"<|", 
+     RowBox[{
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "7648"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "1863.97137849999990066862665116786956787109`9.291039152705878"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "456841"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "100"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "353.78237469999999120773281902074813842773`8.569336106010473"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "98175"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "16"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
+   RowBox[{"109", "\[Rule]", 
+    RowBox[{"<|", 
+     RowBox[{
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "7827"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "1400.82306829999993169622030109167098999023`9.166983198234588"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "344729"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "77"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "466.12060739999998304483597166836261749268`8.689098216989445"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "125114"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "22"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
+   RowBox[{"110", "\[Rule]", 
+    RowBox[{"<|", 
+     RowBox[{
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "8009"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "1740.35801839999999174324329942464828491211`9.261238511804509"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "412686"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "86"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "411.94719059999999899446265771985054016113`8.635441458679239"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "108960"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "20"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
+   RowBox[{"111", "\[Rule]", 
+    RowBox[{"<|", 
+     RowBox[{
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "8082"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "1940.90507109999998647253960371017456054687`9.30860420801594"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "446720"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "91"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "463.36333170000000336585799232125282287598`8.686521576159475"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "121452"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "26"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
+   RowBox[{"112", "\[Rule]", 
+    RowBox[{"<|", 
+     RowBox[{
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "8267"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "1802.89527150000003530294634401798248291016`9.276570412974486"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "412670"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "86"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "456.99069450000001779699232429265975952148`8.680507270092479"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "116686"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "18"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
+   RowBox[{"113", "\[Rule]", 
+    RowBox[{"<|", 
+     RowBox[{
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "8453"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "1894.15339640000001963926479220390319824219`9.298015060339932"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "422213"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "86"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "486.73866900000001578519004397094249725342`8.707895763460286"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "122485"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "18"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
+   RowBox[{"114", "\[Rule]", 
+    RowBox[{"<|", 
+     RowBox[{
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "8528"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "2394.87146320000010746298357844352722167969`9.399882122336685"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "524790"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "100"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "588.57485159999998813873389735817909240723`8.790401615071968"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "145530"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "21"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
+   RowBox[{"115", "\[Rule]", 
+    RowBox[{"<|", 
+     RowBox[{
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "8718"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "2369.87196350000021993764676153659820556641`9.39532479640049"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "500166"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "92"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "511.54514940000001388398231938481330871582`8.729483884211362"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "121662"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "20"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
+   RowBox[{"116", "\[Rule]", 
+    RowBox[{"<|", 
+     RowBox[{
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "8910"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "2286.74065119999977468978613615036010742187`9.37981682552974"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "474315"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "85"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "592.1572098000000323736458085477352142334`8.79303693467272"}], ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "136615"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "21"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
+   RowBox[{"117", "\[Rule]", 
+    RowBox[{"<|", 
+     RowBox[{
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "8987"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "2198.11178920000020298175513744354248046875`9.362649688809379"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "451220"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "86"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "674.5253095000000485015334561467170715332`8.849598163165933"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "154000"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "20"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
+   RowBox[{"118", "\[Rule]", 
+    RowBox[{"<|", 
+     RowBox[{
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "9181"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "2129.17436880000013843527995049953460693359`9.348811142734256"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "424864"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "80"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "595.59199999999998453859006986021995544434`8.79554876894944"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "132770"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "20"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
+   RowBox[{"119", "\[Rule]", 
+    RowBox[{"<|", 
+     RowBox[{
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "9378"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "2526.56500000000005456968210637569427490234`9.423130388930542"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "504912"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "87"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "649.77400000000000090949470177292823791504`8.833362242814847"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "144720"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "17"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
+   RowBox[{"120", "\[Rule]", 
+    RowBox[{"<|", 
+     RowBox[{
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "9457"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "2507.97100000000000363797880709171295166016`9.419922423662868"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "481568"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "83"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "651.59199999999998453859006986021995544434`8.834575656845526"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "142208"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "22"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
+   RowBox[{"121", "\[Rule]", 
+    RowBox[{"<|", 
+     RowBox[{
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "9657"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "2642.00599999999985811882652342319488525391`9.44253371284274"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "500700"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "86"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "689.5570000000000163709046319127082824707`8.859170084824566"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "150210"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "21"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
+   RowBox[{"122", "\[Rule]", 
+    RowBox[{"<|", 
+     RowBox[{
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "9858"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "2485.18600000000014915713109076023101806641`9.41595881168124"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "464252"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "80"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "826.81899999999995998223312199115753173828`8.938010361278835"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "174304"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "23"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
+   RowBox[{"123", "\[Rule]", 
+    RowBox[{"<|", 
+     RowBox[{
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "9940"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "3294.36499999999978172127157449722290039062`9.538371628545685"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "607971"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "100"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "698.28099999999994906829670071601867675781`8.86463013846912"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "149864"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "19"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
+   RowBox[{"124", "\[Rule]", 
+    RowBox[{"<|", 
+     RowBox[{
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "10144"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "2701.25`9.452164693170923"}], ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "488378"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "81"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "781.90499999999997271515894681215286254883`8.913753903574687"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "159896"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "21"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
+   RowBox[{"125", "\[Rule]", 
+    RowBox[{"<|", 
+     RowBox[{
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "10226"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "2876.31300000000010186340659856796264648437`9.479436057430107"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "515672"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "86"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "770.59199999999998453859006986021995544434`8.907424409295965"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "155408"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "20"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
+   RowBox[{"126", "\[Rule]", 
+    RowBox[{"<|", 
+     RowBox[{
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "10434"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "3498.15999999999985448084771633148193359375`9.564439582781334"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "597402"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "90"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "774.67100000000004911271389573812484741211`8.909717211629578"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "154284"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "20"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
+   RowBox[{"127", "\[Rule]", 
+    RowBox[{"<|", 
+     RowBox[{
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "10644"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "2764.4617736000000149942934513092041015625`9.462210502262513"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "474760"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "76"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "788.40983310000001438311301171779632568359`8.91735194547054"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "151558"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "20"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
+   RowBox[{"128", "\[Rule]", 
+    RowBox[{"<|", 
+     RowBox[{
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "10728"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "3889.05586670000002413871698081493377685547`9.610444095158188"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "647850"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "100"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "797.70076210000001992739271372556686401367`8.92243992024331"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "155484"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "20"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
+   RowBox[{"129", "\[Rule]", 
+    RowBox[{"<|", 
+     RowBox[{
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "10940"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "3398.54782079999995403341017663478851318359`9.55189329851729"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "562800"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "85"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "769.84097640000004503235686570405960083008`8.907000936887755"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "144452"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "20"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
+   RowBox[{"130", "\[Rule]", 
+    RowBox[{"<|", 
+     RowBox[{
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "11155"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "3661.50211360000002969172783195972442626953`9.584259202448807"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "579033"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "85"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "820.56104789999994864047039300203323364258`8.934710810405278"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "152880"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "18"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
+   RowBox[{"131", "\[Rule]", 
+    RowBox[{"<|", 
+     RowBox[{
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "11241"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "3367.19568590000017138663679361343383789063`9.547868269595552"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "537380"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "80"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "771.97318959999995513499015942215919494629`8.90820213095867"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "141620"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "19"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
+   RowBox[{"132", "\[Rule]", 
+    RowBox[{"<|", 
+     RowBox[{
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "11459"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "4044.36939650000022083986550569534301757813`9.627450728728505"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "628480"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "88"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "1002.65825580000000627478584647178649902344`9.02175284738618"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "182652"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "22"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
+   RowBox[{"133", "\[Rule]", 
+    RowBox[{"<|", 
+     RowBox[{
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "11678"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "4568.19577389999994920799508690834045410156`9.680344620974195"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "714018"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "100"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "1044.98048760000006041082087904214859008789`9.039708094437927"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "191615"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "24"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
+   RowBox[{"134", "\[Rule]", 
+    RowBox[{"<|", 
+     RowBox[{
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "11767"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "4035.60468459999992774100974202156066894531`9.626508530778754"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "619526"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "90"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "827.91978370000003906170604750514030456543`8.93858817375523"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "145296"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "17"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
+   RowBox[{"135", "\[Rule]", 
+    RowBox[{"<|", 
+     RowBox[{
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "11989"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "4627.01065480000033858232200145721435546875`9.685900412847714"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "704178"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "100"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "1114.48643749999996543920133262872695922852`9.067674701075918"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "197664"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "21"}]}], "|>"}]}]}], 
+     "|>"}]}], ",", 
+   RowBox[{"136", "\[Rule]", 
+    RowBox[{"<|", 
+     RowBox[{
+      RowBox[{"\<\"VariableCount\"\>", "\[Rule]", "12214"}], ",", 
+      RowBox[{"\<\"QuasiNewton\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "4680.29998319999958766857162117958068847656`9.690873603292458"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "696868"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "100"}]}], "|>"}]}], ",", 
+      RowBox[{"\<\"PolakRibiere\"\>", "\[Rule]", 
+       RowBox[{"<|", 
+        RowBox[{
+         RowBox[{"\<\"EvaluationTime\"\>", "\[Rule]", 
+          "1089.53394249999996645783539861440658569336`9.057840677747933"}], 
+         ",", 
+         RowBox[{"\<\"EvaluationCount\"\>", "\[Rule]", "186811"}], ",", 
+         RowBox[{"\<\"StepCount\"\>", "\[Rule]", "19"}]}], "|>"}]}]}], 
+     "|>"}]}]}], "}"}]], "Output",
  CellChangeTimes->{{3.6037523251867085`*^9, 3.603752341806507*^9}, 
-   3.6037525030869875`*^9}]
+   3.6037525030869875`*^9, 3.6039082183633604`*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"ListPlot", "[", "\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"Legended", "[", 
+      RowBox[{
+       RowBox[{"Table", "[", 
+        RowBox[{
+         RowBox[{"{", 
+          RowBox[{
+           RowBox[{"entry", "[", "\"\<VariableCount\>\"", "]"}], ",", 
+           RowBox[{
+            RowBox[{"entry", "[", "\"\<QuasiNewton\>\"", "]"}], "[", 
+            "\"\<EvaluationTime\>\"", "]"}]}], "}"}], ",", 
+         RowBox[{"{", 
+          RowBox[{"entry", ",", 
+           RowBox[{"Last", "/@", "res"}]}], "}"}]}], "]"}], ",", 
+       "\"\<QuasiNewton\>\""}], "]"}], ",", 
+     RowBox[{"Legended", "[", 
+      RowBox[{
+       RowBox[{"Table", "[", 
+        RowBox[{
+         RowBox[{"{", 
+          RowBox[{
+           RowBox[{"entry", "[", "\"\<VariableCount\>\"", "]"}], ",", 
+           RowBox[{
+            RowBox[{"entry", "[", "\"\<PolakRibiere\>\"", "]"}], "[", 
+            "\"\<EvaluationTime\>\"", "]"}]}], "}"}], ",", 
+         RowBox[{"{", 
+          RowBox[{"entry", ",", 
+           RowBox[{"Last", "/@", "res"}]}], "}"}]}], "]"}], ",", 
+       "\"\<PolakRibiere\>\""}], "]"}]}], "}"}], ",", 
+   RowBox[{"AxesLabel", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{"\"\<Number of Variables\>\"", ",", "\"\<Evaluation Time\>\""}], 
+     "}"}]}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.6039082816906924`*^9, 3.603908522539775*^9}, {
+  3.603908581182639*^9, 3.6039085813336535`*^9}}],
+
+Cell[BoxData[
+ TemplateBox[{GraphicsBox[{{}, {{}, {
+       RGBColor[0.3315753, 0.4561011, 0.6388182], 
+       AbsoluteThickness[1.5], 
+       StyleBox[
+        PointBox[CompressedData["
+1:eJwt1QtUjGkYB/DEWrVh3dpQkeQSaye7VIvjTyhpI5fQGWGM2DYpwqhsU9OF
+rlRqiul+Z6sZpXQzM10kq+Sw1aptldVmW2o3Es7amXne75w5c37zPO/zvvO8
+7/d9Jrzj2w9ra2lpBag+6m+6nPDfI0H/AotnazUU7oJuW6bXGt0yZhdkqdSW
+KWfmwsHywroDfzDPPQiq84AMPoxc+Ku6tz4mpx1m7mL530MmeZXbsKWXLPdg
+8X7yAU+oEJXo+YLV84a3enqv12Svk3DTXG9Zvg8WWky4bujygdU7jULbp77T
+C8fSujhn4cj7fI91yTtWzxdxBuOcJ32pQ/FBf5zS/DCeXByADREefe/z9cgC
+Ibrmjw+8bDOZ5QeCG6N8vYg7iSwUQR2N8JhCXhSMvIYtlhcUM8kPQqCnvSRM
+f68Ryw+Dpn3bTMk4j9Z5T0Z/fGFGnhCOAady45AlzI3hrL9L2foi2fwLyXnR
+EHtOFcntF7P1xuCl/9oVru+Wk+UXcU7Fin4Ltp5LOFOTOuurNZZs/ljqL+dr
+MjcOqtn/cmpfRfaPp/0psiIPx0NdbrPDevL8BLIh2PhEOh8hNuTORFpP0wby
+3CSod4sfsZF8NJn6k+TI+puMOarpy43tyXZXoQ53uDJnSXD/Z9XV6US2SoH6
+9ET17SKnpUKd3tyykxyeBvcqnziDD8y/pEG1+TLJRy45IR2q1etpRziTn6Wj
+YOjhdzwvF3JBBp3HDHbOT2RSv9pdyXWZdL+YHyHHZ9F58uWx/5eNksbTNamb
++OSabOpnnBubPwfq5bwyZfk+udSfgBPk5lzUiQztx7r5kGV5MDWVvrzbzuLi
+fKxO/ma35TIv8tt8BDROMakbYX5WAOMN/t7/nvJm//8agsWDgyKJgPXvOsw5
+OlV7LM+SOT9hZgHPXDLbj2xeiIoXW4TXBP7ki4WYptc3K9SKObYIka3dg32O
+58i2xRAX6kefvh9IDixGoPcMTkJ8EHm8FG8tjxYZ32ZeLYWLVMe34yObv16K
+3B21ps6lIvI2GX5ozX3n0sPyz8vQ9oXOsXxdZv0bcGoLWN/zPIycfQN9oqJR
+pVYIufsG5k017zoRFsr2rwShJSYuObxg8qelaB2Y4b3xbATZphQr447fHPVl
++b+WQv9Y9MnZimi2PzdhG7S/I2KE3Zeym9Dlz96nLL5I3lqGxTbFnzSaMf9d
+hpF0Q33+myjysnK8OWdlJ7wXS24px7iJA32HWmLIJ29hkmnzo5DOSHLpLfSM
+CMMfeV4icyvw/NDDb/cFJZDHVSIp2G152TCzXSWeLOswmryQebgSW+cOTO+9
+n0i2rkLuyqCU3T4s/mcVZKn12+O3XyGLqyFornQ+cvkq+fdqLMj5TNozR0KO
+q0HAFfeH9r2XyZtv44zRgaueFmx87G1YcV83pexI0VhoJoe580Rl/BKqJwyS
+w8Hsn2kSMauXJ4dzkQenpjSD7YcCkpGP3jUi5iMK+O/IWOnXlU7joxQwMDy+
+2nop80sFenV/27Q3I43ynZTwm15oa1KdSXGBEo9Vr7ehROZOJVQvl6ljs7Io
+f12t5n7c705xLfdaqIY/rajKJz+opXGzssmjtZrnW5ogh3ywjp6XO6+Rm+qw
+rTPh2ICY5Q/XoZsXk2zIKyS71sO0ccTPIKqA6t6thyJ7wowxV66Th+sRbz3E
+4Tuy+MEGBFdfMKkWF9H4lgb0j1ljvLxdSvH3DWiyt0paEUZxofsdRD7dWKE9
+TUb5T+5g75DsnoOdDP8DxBZ1Xg==
+         "]], FontFamily -> "Arial"]}, {
+       RGBColor[0.7926498, 0.5499369, 0.1278459], 
+       AbsoluteThickness[1.5], 
+       StyleBox[
+        PointBox[CompressedData["
+1:eJxd1Xs0lGkcB/DJSp02jlpbu0ekm5S2rbPpRsd30k02lkJFVg6lqU3FhkJD
+tWKLxmhUUiNpho1IbqHGZYbUNgi7oqO2m+wSYpF223nn9/zTzjlz3vOZ7+95
+n/e5vM9M8wlw8dPh8XhHNF/uSh9nvM/obdjgI7XVUuiKdxGC0iCxnHnr/+yJ
+1+YLx16bkkk22445nvEVAxalZPh+bKkfAv1FXWG2Sla/C5lcd4Y1ZMUeLLtZ
+c/D2pVqy9160PBjc+Cy9ld1vP/q48s0t5H2BkKsclsTwn7D6IFyoMss54M9y
+xUEYfHUj5Y3sJXlBKCYeVdSmru5k9zsEbax6Re4Jww7tp5uccwQmW32t2516
+ySFCPD1klL32aQ+rj8TPe16NZPQOsfk4Cl03rsdBssUx1E9vHY4QjILWdcex
+puDtP40hOmRhNLjWDRtGk3ECam64ySwfGwsdy+hJLQ/0yTWx+LcxRDPln5Jz
+TtKVN56u8jjKcw3JIfGYzS3Po8/JitM0HvVE9jwiNj+TWP8JWKUdkAnZUwyJ
+neaHw6bksEQouemdMI3cn0jjNWH1MyXokXELMou1T4KV1y378VEW5LYkep6t
+LDc7h8urNRNixHL/8zDcrNkBBebknvO0v9rmkdddwG9p+1aMc7ckX0nBJs1s
+VT1ZSF56kZ7XeDFZegkv6jQL4GVDjpXS/pAvJTdL8XimXuSZGUvIklRwj6tz
+j9U/T0UM3/tF3WVWn3kZmtGLuu7zyQfSaPyn7MhVaZjMbVgxc+IVLOFusGA1
+G186rf/vzLfT4ajZzct017P+r9L78cGZHCRDuK1mBmOYH8iQZHNRMvVbR/IN
+OZrvfhlr/cKJfDYDjVkdZsMT3clDGbAynTDUcd+VjScT/JdG8weGWd78C/ob
+vOI6sjay+bsG80aTpncJzAuyEFVdGKxvsIU8NxvXraMUb3S8yKezUfs+LcAl
+0YOccB3u26IF679g+doc2Nf8bfhJuzc5MgdJb9QjVtdYrpcL2fVXuyWLtpFt
+ctEeWNJ305PVK3NhKintKVYzf3cDcm87c6dGX/IJjUfSO4/uZ56UhzhH2U/R
+jn7k9DxYqn9dF+e2g9yeB4/sGXntUTvZ+t1EzIotzT7prH5MPtzWz80+rvIn
+2+WjwHmoWuKzm/woH8/tG6w++17A1qcAZdK5DqEr97P1KIC4vrDk8eh9ZKdC
+hBtE8w43sfZdhTAddDFxL2H5/CLYysxsjYv3ktVFsPT/IHfRZ3lgMTK+drBu
+Cj1Azi/GQn3TUZMfMnveQqGb0m+HdyBZtwR7H76OfVbEvK4EBjZZoredQeT+
+Ehzmjq/+YPKyUviWjbmYu5zlHaVIru+0verFfLYMfGnc9DVBIeQnZQjzcE0+
+NuUgWXwb4QI9ne5p4WT7O1iZuil39p1QcsIdnBe9XFQ3EKa1cJYCNo9D/2iJ
+Z45SwLjljKR+dwTVyxX4IeeewznfKLYe5ehTibuLho6Qd5bj2bzFg/xIyoWn
+yrFcEtz0jdFxcnc5uNO29AJr71yBJu64dDxGeUgF5Z7MbRX0f3aS2vP4leBO
++1PNMWRBJbR/Vw0sr6vEOO4ACjhBHq6k+xkxb69Cd5jmhbVirq3CyVix29o0
+5v4qLO62mJPcxeylRGZ+k/MtA7LwrhKdAdl64Veof2G/Ej/qpU6+O5Xl21VY
++meK8SrXeGqvViGG16v718bTlI+oMDs4rtCjnbUXVIM7bvt2iai+tRrVKQ3l
+0/VE+A/o2pg6
+         "]], FontFamily -> "Arial"]}, {}}, {}}, AspectRatio -> 
+    NCache[GoldenRatio^(-1), 0.6180339887498948], Axes -> {True, True}, 
+    AxesLabel -> {
+      FormBox["\"Number of Variables\"", TraditionalForm], 
+      FormBox["\"Evaluation Time\"", TraditionalForm]}, 
+    AxesOrigin -> {0., 0.}, BaseStyle -> {FontFamily -> "Arial"}, 
+    DisplayFunction -> Identity, Frame -> {{False, False}, {False, False}}, 
+    FrameLabel -> {{None, None}, {None, None}}, 
+    FrameTicks -> {{Automatic, Automatic}, {Automatic, Automatic}}, 
+    GridLines -> {None, None}, GridLinesStyle -> Directive[
+      GrayLevel[0.5, 0.4]], ImageSize -> {498., Automatic}, 
+    LabelStyle -> {FontFamily -> "Arial"}, 
+    Method -> {"ScalingFunctions" -> None}, 
+    PlotRange -> {{0., 12214.}, {0., 2501.2711395}}, PlotRangeClipping -> 
+    True, PlotRangePadding -> {{
+       Scaled[0.02], 
+       Scaled[0.02]}, {
+       Scaled[0.02], 
+       Scaled[0.02]}}, Ticks -> {Automatic, Automatic}],FormBox[
+    FormBox[
+     TemplateBox[{"\"QuasiNewton\"", "\"PolakRibiere\""}, "PointLegend", 
+      DisplayFunction -> (FormBox[
+        StyleBox[
+         StyleBox[
+          PaneBox[
+           TagBox[
+            GridBox[{{
+               TagBox[
+                GridBox[{{
+                   GraphicsBox[{{}, {
+                    Directive[
+                    EdgeForm[{
+                    Opacity[0.3], 
+                    GrayLevel[0]}], FontFamily -> "Arial", 
+                    AbsoluteThickness[1.5], 
+                    RGBColor[0.3315753, 0.4561011, 0.6388182]], {
+                    Directive[
+                    EdgeForm[{
+                    Opacity[0.3], 
+                    GrayLevel[0]}], FontFamily -> "Arial", 
+                    AbsoluteThickness[1.5], 
+                    RGBColor[0.3315753, 0.4561011, 0.6388182]], 
+                    PointBox[
+                    NCache[{
+                    Scaled[{
+                    Rational[1, 2], 
+                    Rational[1, 2]}]}, {
+                    Scaled[{0.5, 0.5}]}]]}}}, AspectRatio -> Full, 
+                    ImageSize -> {10, 10}, PlotRangePadding -> None, 
+                    ImagePadding -> Automatic, 
+                    BaselinePosition -> (Scaled[0.1] -> Baseline)], #}, {
+                   GraphicsBox[{{}, {
+                    Directive[
+                    EdgeForm[{
+                    Opacity[0.3], 
+                    GrayLevel[0]}], FontFamily -> "Arial", 
+                    AbsoluteThickness[1.5], 
+                    RGBColor[0.7926498, 0.5499369, 0.1278459]], {
+                    Directive[
+                    EdgeForm[{
+                    Opacity[0.3], 
+                    GrayLevel[0]}], FontFamily -> "Arial", 
+                    AbsoluteThickness[1.5], 
+                    RGBColor[0.7926498, 0.5499369, 0.1278459]], 
+                    PointBox[
+                    NCache[{
+                    Scaled[{
+                    Rational[1, 2], 
+                    Rational[1, 2]}]}, {
+                    Scaled[{0.5, 0.5}]}]]}}}, AspectRatio -> Full, 
+                    ImageSize -> {10, 10}, PlotRangePadding -> None, 
+                    ImagePadding -> Automatic, 
+                    BaselinePosition -> (Scaled[0.1] -> Baseline)], #2}}, 
+                 GridBoxAlignment -> {
+                  "Columns" -> {Center, Left}, "Rows" -> {{Baseline}}}, 
+                 AutoDelete -> False, 
+                 GridBoxDividers -> {
+                  "Columns" -> {{False}}, "Rows" -> {{False}}}, 
+                 GridBoxItemSize -> {"Columns" -> {{All}}, "Rows" -> {{All}}},
+                  GridBoxSpacings -> {
+                  "Columns" -> {{0.5}}, "Rows" -> {{0.8}}}], "Grid"]}}, 
+             GridBoxAlignment -> {"Columns" -> {{Left}}, "Rows" -> {{Top}}}, 
+             AutoDelete -> False, 
+             GridBoxItemSize -> {
+              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+             GridBoxSpacings -> {"Columns" -> {{1}}, "Rows" -> {{0}}}], 
+            "Grid"], Alignment -> Left, AppearanceElements -> None, 
+           ImageMargins -> {{5, 5}, {5, 5}}, ImageSizeAction -> 
+           "ResizeToFit"], LineIndent -> 0, StripOnInput -> False], {
+         FontFamily -> "Arial"}, Background -> Automatic, StripOnInput -> 
+         False], TraditionalForm]& ), Editable -> True, 
+      InterpretationFunction :> (RowBox[{"PointLegend", "[", 
+         RowBox[{
+           RowBox[{"{", 
+             RowBox[{
+               RowBox[{"Directive", "[", 
+                 RowBox[{
+                   RowBox[{"FontFamily", "\[Rule]", "\"Arial\""}], ",", 
+                   RowBox[{"AbsoluteThickness", "[", "1.5`", "]"}], ",", 
+                   InterpretationBox[
+                    ButtonBox[
+                    TooltipBox[
+                    GraphicsBox[{{
+                    GrayLevel[0], 
+                    RectangleBox[{0, 0}]}, {
+                    GrayLevel[0], 
+                    RectangleBox[{1, -1}]}, {
+                    RGBColor[0.3315753, 0.4561011, 0.6388182], 
+                    RectangleBox[{0, -1}, {2, 1}]}}, AspectRatio -> 1, Frame -> 
+                    True, FrameStyle -> 
+                    RGBColor[0.22105020000000003`, 0.3040674, 0.4258788], 
+                    FrameTicks -> None, PlotRangePadding -> None, ImageSize -> 
+                    Dynamic[{
+                    Automatic, 1.2 CurrentValue["FontCapHeight"]/
+                    AbsoluteCurrentValue[Magnification]}]], 
+                    "RGBColor[0.3315753, 0.4561011, 0.6388182]"], Appearance -> 
+                    None, BaseStyle -> {}, BaselinePosition -> Baseline, 
+                    DefaultBaseStyle -> {}, ButtonFunction :> 
+                    With[{WSMLink`box$ = EvaluationBox[]}, 
+                    SelectionMove[WSMLink`box$, All, Expression]; 
+                    FrontEnd`Private`$ColorSelectorInitialAlpha = 1; 
+                    FrontEnd`Private`$ColorSelectorInitialColor = 
+                    RGBColor[0.3315753, 0.4561011, 0.6388182]; 
+                    FrontEnd`Private`$ColorSelectorUseMakeBoxes = True; 
+                    MathLink`CallFrontEnd[
+                    FrontEnd`AttachCell[WSMLink`box$, 
+                    FrontEndResource["RGBColorValueSelector"], {
+                    0, {Left, Bottom}}, {Left, Top}, 
+                    "ClosingActions" -> {
+                    "SelectionDeparture", "ParentChanged", 
+                    "EvaluatorQuit"}]]], BaseStyle -> Inherited, Evaluator -> 
+                    Automatic, Method -> "Preemptive"], 
+                    RGBColor[0.3315753, 0.4561011, 0.6388182], Editable -> 
+                    False, Selectable -> False]}], "]"}], ",", 
+               RowBox[{"Directive", "[", 
+                 RowBox[{
+                   RowBox[{"FontFamily", "\[Rule]", "\"Arial\""}], ",", 
+                   RowBox[{"AbsoluteThickness", "[", "1.5`", "]"}], ",", 
+                   InterpretationBox[
+                    ButtonBox[
+                    TooltipBox[
+                    GraphicsBox[{{
+                    GrayLevel[0], 
+                    RectangleBox[{0, 0}]}, {
+                    GrayLevel[0], 
+                    RectangleBox[{1, -1}]}, {
+                    RGBColor[0.7926498, 0.5499369, 0.1278459], 
+                    RectangleBox[{0, -1}, {2, 1}]}}, AspectRatio -> 1, Frame -> 
+                    True, FrameStyle -> 
+                    RGBColor[
+                    0.5284332, 0.36662459999999997`, 0.08523060000000002], 
+                    FrameTicks -> None, PlotRangePadding -> None, ImageSize -> 
+                    Dynamic[{
+                    Automatic, 1.2 CurrentValue["FontCapHeight"]/
+                    AbsoluteCurrentValue[Magnification]}]], 
+                    "RGBColor[0.7926498, 0.5499369, 0.1278459]"], Appearance -> 
+                    None, BaseStyle -> {}, BaselinePosition -> Baseline, 
+                    DefaultBaseStyle -> {}, ButtonFunction :> 
+                    With[{WSMLink`box$ = EvaluationBox[]}, 
+                    SelectionMove[WSMLink`box$, All, Expression]; 
+                    FrontEnd`Private`$ColorSelectorInitialAlpha = 1; 
+                    FrontEnd`Private`$ColorSelectorInitialColor = 
+                    RGBColor[0.7926498, 0.5499369, 0.1278459]; 
+                    FrontEnd`Private`$ColorSelectorUseMakeBoxes = True; 
+                    MathLink`CallFrontEnd[
+                    FrontEnd`AttachCell[WSMLink`box$, 
+                    FrontEndResource["RGBColorValueSelector"], {
+                    0, {Left, Bottom}}, {Left, Top}, 
+                    "ClosingActions" -> {
+                    "SelectionDeparture", "ParentChanged", 
+                    "EvaluatorQuit"}]]], BaseStyle -> Inherited, Evaluator -> 
+                    Automatic, Method -> "Preemptive"], 
+                    RGBColor[0.7926498, 0.5499369, 0.1278459], Editable -> 
+                    False, Selectable -> False]}], "]"}]}], "}"}], ",", 
+           RowBox[{"{", 
+             RowBox[{#, ",", #2}], "}"}], ",", 
+           RowBox[{"Joined", "\[Rule]", 
+             RowBox[{"{", 
+               RowBox[{"False", ",", "False", ",", "False", ",", "False"}], 
+               "}"}]}], ",", 
+           RowBox[{"LabelStyle", "\[Rule]", 
+             RowBox[{"{", 
+               RowBox[{"FontFamily", "\[Rule]", "\"Arial\""}], "}"}]}], ",", 
+           RowBox[{"LegendLayout", "\[Rule]", "\"Column\""}], ",", 
+           RowBox[{"LegendMarkers", "\[Rule]", 
+             RowBox[{"{", 
+               RowBox[{
+                 RowBox[{"{", 
+                   RowBox[{
+                    RowBox[{"{", 
+                    RowBox[{"None", ",", "Automatic"}], "}"}], ",", 
+                    RowBox[{"{", 
+                    RowBox[{"None", ",", "Automatic"}], "}"}]}], "}"}], ",", 
+                 RowBox[{"{", 
+                   RowBox[{
+                    RowBox[{"{", 
+                    RowBox[{"False", ",", "Automatic"}], "}"}], ",", 
+                    RowBox[{"{", 
+                    RowBox[{"False", ",", "Automatic"}], "}"}]}], "}"}]}], 
+               "}"}]}]}], "]"}]& )], TraditionalForm], TraditionalForm]},
+  "Legended",
+  DisplayFunction->(GridBox[{{
+      TagBox[
+       ItemBox[
+        PaneBox[
+         TagBox[#, "SkipImageSizeLevel"], Alignment -> {Center, Baseline}, 
+         BaselinePosition -> Baseline], DefaultBaseStyle -> "Labeled"], 
+       "SkipImageSizeLevel"], 
+      ItemBox[#2, DefaultBaseStyle -> "LabeledLabel"]}}, 
+    GridBoxAlignment -> {"Columns" -> {{Center}}, "Rows" -> {{Center}}}, 
+    AutoDelete -> False, GridBoxItemSize -> Automatic, 
+    BaselinePosition -> {1, 1}]& ),
+  Editable->True,
+  InterpretationFunction->(RowBox[{"Legended", "[", 
+     RowBox[{#, ",", 
+       RowBox[{"Placed", "[", 
+         RowBox[{#2, ",", "After"}], "]"}]}], "]"}]& )]], "Output",
+ CellChangeTimes->{3.6039085818497057`*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"ListPlot", "[", "\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"Legended", "[", 
+      RowBox[{
+       RowBox[{"Table", "[", 
+        RowBox[{
+         RowBox[{"{", 
+          RowBox[{
+           RowBox[{"entry", "[", "\"\<VariableCount\>\"", "]"}], ",", 
+           RowBox[{
+            RowBox[{"entry", "[", "\"\<QuasiNewton\>\"", "]"}], "[", 
+            "\"\<StepCount\>\"", "]"}]}], "}"}], ",", 
+         RowBox[{"{", 
+          RowBox[{"entry", ",", 
+           RowBox[{"Last", "/@", "res"}]}], "}"}]}], "]"}], ",", 
+       "\"\<QuasiNewton\>\""}], "]"}], ",", 
+     RowBox[{"Legended", "[", 
+      RowBox[{
+       RowBox[{"Table", "[", 
+        RowBox[{
+         RowBox[{"{", 
+          RowBox[{
+           RowBox[{"entry", "[", "\"\<VariableCount\>\"", "]"}], ",", 
+           RowBox[{
+            RowBox[{"entry", "[", "\"\<PolakRibiere\>\"", "]"}], "[", 
+            "\"\<StepCount\>\"", "]"}]}], "}"}], ",", 
+         RowBox[{"{", 
+          RowBox[{"entry", ",", 
+           RowBox[{"Last", "/@", "res"}]}], "}"}]}], "]"}], ",", 
+       "\"\<PolakRibiere\>\""}], "]"}]}], "}"}], ",", 
+   RowBox[{"AxesLabel", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{"\"\<Number of Variables\>\"", ",", "\"\<Step Count\>\""}], 
+     "}"}]}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.6039086037969*^9, 3.603908620567577*^9}}],
+
+Cell[BoxData[
+ TemplateBox[{GraphicsBox[{{}, {{}, {
+       RGBColor[0.3315753, 0.4561011, 0.6388182], 
+       AbsoluteThickness[1.5], 
+       StyleBox[
+        PointBox[CompressedData["
+1:eJxdlMtLlGEUxoeI7C9oPUFBtAiXBi2+aJFBkVp2Ywgnkkqiiw4xheBrGYl0
+sVFGky5jaU52s7HxkmWflzFrkbNyUUItXLQpZjGLok3F+3uJ5xsYDr/vnPM8
+5z3fO7P2yOmq2hWhUKjp7/dftJ9Kz8adNppqG/0K+JCNXhUcUQ5HeQ57R9Hb
+a2OqFj04fCLgcxLeZ2PNKfr3oHdW68808ByuiVHv9M7BB20sPU8/5/EuqF+h
+kXryQ03U4R83ep5CM+z2cYl69rihRfvzl7XfXCGPv9fK8/02rm7jHOTnYXOA
++a6SRz99HR3mid9QP7+dfjh/kzx6XkLnjXSof2On5ouw2++6JHn2H+miH7+l
+LvUP39L88R7VK/Rofflt8pyv7476ld3V/tQ99Mm3pdRvEXbnT/aq/nKv+g/e
+V736B1o/6xj/zj7Yna+ffuonYcM+kw/hXTbGBjgf830cUP1MGj3uS/cjGL2f
+AV4epJ/5Fx+rftkT1S99qrzxGfNxH9phd38Tz1V/+5DqN8M+vOqF6m+B3f3N
+BfIVGRi/Vti9nzXDMPr9jpnny7DOW/8SPfZTktX5tsEe+p+yOk9shHrymRE9
+7+5R/Hk/30dVb9OY1i+Mab5hHD/2kR3XfOSVzrtyQucrhz38ixM6z+bX1LOP
+b47p736j/DXAHZPos78db9Fn3wmY/w+z3pe8uagcSvuqXzIFM+8xmN+7uTal
+ej9cPfupnMaffNyxzZulafXfOqP9dY6ZJw+7/f+a0f7oLMw+P8DufhUdo3c4
+p+d5H+BiTuYx0TkY/QXHVs/8nhN/U/dO/T7/5z+CmCrL
+         "]], FontFamily -> "Arial"]}, {
+       RGBColor[0.7926498, 0.5499369, 0.1278459], 
+       AbsoluteThickness[1.5], 
+       StyleBox[
+        PointBox[CompressedData["
+1:eJxd1MtL1FEUB/AfIepf4HoEg5CIMbXGcPGLFtkqDdrEII4kmUT5GGQKwWsP
+ErGycRgtfEylNdprHJvKHjamlrbQWbkooRYu2iSzmEXhpuJ8z+J7B4bDh3Pu
+Offe+c2vuPHCiaZdjuN0//v+j/KpcyVWSjQn4Sr4FFwG++GDEj0BrndPs2NN
+bM9Z2CcxfY77NZy3+rXBByS2dnC+IQhXoF8nfEii9yL3dy+xs128PtEN4z5C
+hp3t4fXmCuf3XGVnrsE4r7nO53F7ub6wj8+3osb6RD87fpMdusVOD/C8zG2e
+54Y57x/k+V0R7peLcH1JFMZ9+Ie4fnOI6z13uL75Loz7z6qxv5oRGM/fxCjb
+N8b9Y+Mwfv++GNdvqPdKjN7j+Vtqr8Tp+7y+/QF7Sb1fYmSC+zVPcr95Ne4n
++pDrg4+435q6XGIyzvXDUzDu6/cU129Nszcec3/fE7hUovcp9yt9xvMGLIef
+c7+jCc73WM6f4f7VaqxfnuH62iS713LRLJ9vUo1+32e5vv0F1xekeD9HUlz/
+1XLwJYznLanG+uOveP4vNdbve83z1y13zHF9ao7z/jfcP+8t19dYzqmxvuod
+53+q0W/4Ped/qPH8Ds7DOP+xD1wfVsv/z+xOU39zme3E1bi/ggXud2aB8uYG
+5822VV/3EZb/pwmpZb9mU415hxdhvI9a1LivzCLX/1FjXmCJ/cVyznL9Mu9/
+VY37yallvgl8ov0762p5f5gdNc7b8pn3+01d7v4Fcqn1SA==
+         "]], FontFamily -> "Arial"]}, {}}, {}}, AspectRatio -> 
+    NCache[GoldenRatio^(-1), 0.6180339887498948], Axes -> {True, True}, 
+    AxesLabel -> {
+      FormBox["\"Number of Variables\"", TraditionalForm], 
+      FormBox["\"Step Count\"", TraditionalForm]}, AxesOrigin -> {0., 0.}, 
+    BaseStyle -> {FontFamily -> "Arial"}, DisplayFunction -> Identity, 
+    Frame -> {{False, False}, {False, False}}, 
+    FrameLabel -> {{None, None}, {None, None}}, 
+    FrameTicks -> {{Automatic, Automatic}, {Automatic, Automatic}}, 
+    GridLines -> {None, None}, GridLinesStyle -> Directive[
+      GrayLevel[0.5, 0.4]], ImageSize -> {451., Automatic}, 
+    LabelStyle -> {FontFamily -> "Arial"}, 
+    Method -> {"ScalingFunctions" -> None}, 
+    PlotRange -> {{0., 12214.}, {0., 100.}}, PlotRangeClipping -> True, 
+    PlotRangePadding -> {{
+       Scaled[0.02], 
+       Scaled[0.02]}, {
+       Scaled[0.02], 
+       Scaled[0.02]}}, Ticks -> {Automatic, Automatic}],FormBox[
+    FormBox[
+     TemplateBox[{"\"QuasiNewton\"", "\"PolakRibiere\""}, "PointLegend", 
+      DisplayFunction -> (FormBox[
+        StyleBox[
+         StyleBox[
+          PaneBox[
+           TagBox[
+            GridBox[{{
+               TagBox[
+                GridBox[{{
+                   GraphicsBox[{{}, {
+                    Directive[
+                    EdgeForm[{
+                    Opacity[0.3], 
+                    GrayLevel[0]}], FontFamily -> "Arial", 
+                    AbsoluteThickness[1.5], 
+                    RGBColor[0.3315753, 0.4561011, 0.6388182]], {
+                    Directive[
+                    EdgeForm[{
+                    Opacity[0.3], 
+                    GrayLevel[0]}], FontFamily -> "Arial", 
+                    AbsoluteThickness[1.5], 
+                    RGBColor[0.3315753, 0.4561011, 0.6388182]], 
+                    PointBox[
+                    NCache[{
+                    Scaled[{
+                    Rational[1, 2], 
+                    Rational[1, 2]}]}, {
+                    Scaled[{0.5, 0.5}]}]]}}}, AspectRatio -> Full, 
+                    ImageSize -> {10, 10}, PlotRangePadding -> None, 
+                    ImagePadding -> Automatic, 
+                    BaselinePosition -> (Scaled[0.1] -> Baseline)], #}, {
+                   GraphicsBox[{{}, {
+                    Directive[
+                    EdgeForm[{
+                    Opacity[0.3], 
+                    GrayLevel[0]}], FontFamily -> "Arial", 
+                    AbsoluteThickness[1.5], 
+                    RGBColor[0.7926498, 0.5499369, 0.1278459]], {
+                    Directive[
+                    EdgeForm[{
+                    Opacity[0.3], 
+                    GrayLevel[0]}], FontFamily -> "Arial", 
+                    AbsoluteThickness[1.5], 
+                    RGBColor[0.7926498, 0.5499369, 0.1278459]], 
+                    PointBox[
+                    NCache[{
+                    Scaled[{
+                    Rational[1, 2], 
+                    Rational[1, 2]}]}, {
+                    Scaled[{0.5, 0.5}]}]]}}}, AspectRatio -> Full, 
+                    ImageSize -> {10, 10}, PlotRangePadding -> None, 
+                    ImagePadding -> Automatic, 
+                    BaselinePosition -> (Scaled[0.1] -> Baseline)], #2}}, 
+                 GridBoxAlignment -> {
+                  "Columns" -> {Center, Left}, "Rows" -> {{Baseline}}}, 
+                 AutoDelete -> False, 
+                 GridBoxDividers -> {
+                  "Columns" -> {{False}}, "Rows" -> {{False}}}, 
+                 GridBoxItemSize -> {"Columns" -> {{All}}, "Rows" -> {{All}}},
+                  GridBoxSpacings -> {
+                  "Columns" -> {{0.5}}, "Rows" -> {{0.8}}}], "Grid"]}}, 
+             GridBoxAlignment -> {"Columns" -> {{Left}}, "Rows" -> {{Top}}}, 
+             AutoDelete -> False, 
+             GridBoxItemSize -> {
+              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+             GridBoxSpacings -> {"Columns" -> {{1}}, "Rows" -> {{0}}}], 
+            "Grid"], Alignment -> Left, AppearanceElements -> None, 
+           ImageMargins -> {{5, 5}, {5, 5}}, ImageSizeAction -> 
+           "ResizeToFit"], LineIndent -> 0, StripOnInput -> False], {
+         FontFamily -> "Arial"}, Background -> Automatic, StripOnInput -> 
+         False], TraditionalForm]& ), Editable -> True, 
+      InterpretationFunction :> (RowBox[{"PointLegend", "[", 
+         RowBox[{
+           RowBox[{"{", 
+             RowBox[{
+               RowBox[{"Directive", "[", 
+                 RowBox[{
+                   RowBox[{"FontFamily", "\[Rule]", "\"Arial\""}], ",", 
+                   RowBox[{"AbsoluteThickness", "[", "1.5`", "]"}], ",", 
+                   InterpretationBox[
+                    ButtonBox[
+                    TooltipBox[
+                    GraphicsBox[{{
+                    GrayLevel[0], 
+                    RectangleBox[{0, 0}]}, {
+                    GrayLevel[0], 
+                    RectangleBox[{1, -1}]}, {
+                    RGBColor[0.3315753, 0.4561011, 0.6388182], 
+                    RectangleBox[{0, -1}, {2, 1}]}}, AspectRatio -> 1, Frame -> 
+                    True, FrameStyle -> 
+                    RGBColor[0.22105020000000003`, 0.3040674, 0.4258788], 
+                    FrameTicks -> None, PlotRangePadding -> None, ImageSize -> 
+                    Dynamic[{
+                    Automatic, 1.2 CurrentValue["FontCapHeight"]/
+                    AbsoluteCurrentValue[Magnification]}]], 
+                    "RGBColor[0.3315753, 0.4561011, 0.6388182]"], Appearance -> 
+                    None, BaseStyle -> {}, BaselinePosition -> Baseline, 
+                    DefaultBaseStyle -> {}, ButtonFunction :> 
+                    With[{WSMLink`box$ = EvaluationBox[]}, 
+                    SelectionMove[WSMLink`box$, All, Expression]; 
+                    FrontEnd`Private`$ColorSelectorInitialAlpha = 1; 
+                    FrontEnd`Private`$ColorSelectorInitialColor = 
+                    RGBColor[0.3315753, 0.4561011, 0.6388182]; 
+                    FrontEnd`Private`$ColorSelectorUseMakeBoxes = True; 
+                    MathLink`CallFrontEnd[
+                    FrontEnd`AttachCell[WSMLink`box$, 
+                    FrontEndResource["RGBColorValueSelector"], {
+                    0, {Left, Bottom}}, {Left, Top}, 
+                    "ClosingActions" -> {
+                    "SelectionDeparture", "ParentChanged", 
+                    "EvaluatorQuit"}]]], BaseStyle -> Inherited, Evaluator -> 
+                    Automatic, Method -> "Preemptive"], 
+                    RGBColor[0.3315753, 0.4561011, 0.6388182], Editable -> 
+                    False, Selectable -> False]}], "]"}], ",", 
+               RowBox[{"Directive", "[", 
+                 RowBox[{
+                   RowBox[{"FontFamily", "\[Rule]", "\"Arial\""}], ",", 
+                   RowBox[{"AbsoluteThickness", "[", "1.5`", "]"}], ",", 
+                   InterpretationBox[
+                    ButtonBox[
+                    TooltipBox[
+                    GraphicsBox[{{
+                    GrayLevel[0], 
+                    RectangleBox[{0, 0}]}, {
+                    GrayLevel[0], 
+                    RectangleBox[{1, -1}]}, {
+                    RGBColor[0.7926498, 0.5499369, 0.1278459], 
+                    RectangleBox[{0, -1}, {2, 1}]}}, AspectRatio -> 1, Frame -> 
+                    True, FrameStyle -> 
+                    RGBColor[
+                    0.5284332, 0.36662459999999997`, 0.08523060000000002], 
+                    FrameTicks -> None, PlotRangePadding -> None, ImageSize -> 
+                    Dynamic[{
+                    Automatic, 1.2 CurrentValue["FontCapHeight"]/
+                    AbsoluteCurrentValue[Magnification]}]], 
+                    "RGBColor[0.7926498, 0.5499369, 0.1278459]"], Appearance -> 
+                    None, BaseStyle -> {}, BaselinePosition -> Baseline, 
+                    DefaultBaseStyle -> {}, ButtonFunction :> 
+                    With[{WSMLink`box$ = EvaluationBox[]}, 
+                    SelectionMove[WSMLink`box$, All, Expression]; 
+                    FrontEnd`Private`$ColorSelectorInitialAlpha = 1; 
+                    FrontEnd`Private`$ColorSelectorInitialColor = 
+                    RGBColor[0.7926498, 0.5499369, 0.1278459]; 
+                    FrontEnd`Private`$ColorSelectorUseMakeBoxes = True; 
+                    MathLink`CallFrontEnd[
+                    FrontEnd`AttachCell[WSMLink`box$, 
+                    FrontEndResource["RGBColorValueSelector"], {
+                    0, {Left, Bottom}}, {Left, Top}, 
+                    "ClosingActions" -> {
+                    "SelectionDeparture", "ParentChanged", 
+                    "EvaluatorQuit"}]]], BaseStyle -> Inherited, Evaluator -> 
+                    Automatic, Method -> "Preemptive"], 
+                    RGBColor[0.7926498, 0.5499369, 0.1278459], Editable -> 
+                    False, Selectable -> False]}], "]"}]}], "}"}], ",", 
+           RowBox[{"{", 
+             RowBox[{#, ",", #2}], "}"}], ",", 
+           RowBox[{"Joined", "\[Rule]", 
+             RowBox[{"{", 
+               RowBox[{"False", ",", "False", ",", "False", ",", "False"}], 
+               "}"}]}], ",", 
+           RowBox[{"LabelStyle", "\[Rule]", 
+             RowBox[{"{", 
+               RowBox[{"FontFamily", "\[Rule]", "\"Arial\""}], "}"}]}], ",", 
+           RowBox[{"LegendLayout", "\[Rule]", "\"Column\""}], ",", 
+           RowBox[{"LegendMarkers", "\[Rule]", 
+             RowBox[{"{", 
+               RowBox[{
+                 RowBox[{"{", 
+                   RowBox[{
+                    RowBox[{"{", 
+                    RowBox[{"None", ",", "Automatic"}], "}"}], ",", 
+                    RowBox[{"{", 
+                    RowBox[{"None", ",", "Automatic"}], "}"}]}], "}"}], ",", 
+                 RowBox[{"{", 
+                   RowBox[{
+                    RowBox[{"{", 
+                    RowBox[{"False", ",", "Automatic"}], "}"}], ",", 
+                    RowBox[{"{", 
+                    RowBox[{"False", ",", "Automatic"}], "}"}]}], "}"}]}], 
+               "}"}]}]}], "]"}]& )], TraditionalForm], TraditionalForm]},
+  "Legended",
+  DisplayFunction->(GridBox[{{
+      TagBox[
+       ItemBox[
+        PaneBox[
+         TagBox[#, "SkipImageSizeLevel"], Alignment -> {Center, Baseline}, 
+         BaselinePosition -> Baseline], DefaultBaseStyle -> "Labeled"], 
+       "SkipImageSizeLevel"], 
+      ItemBox[#2, DefaultBaseStyle -> "LabeledLabel"]}}, 
+    GridBoxAlignment -> {"Columns" -> {{Center}}, "Rows" -> {{Center}}}, 
+    AutoDelete -> False, GridBoxItemSize -> Automatic, 
+    BaselinePosition -> {1, 1}]& ),
+  Editable->True,
+  InterpretationFunction->(RowBox[{"Legended", "[", 
+     RowBox[{#, ",", 
+       RowBox[{"Placed", "[", 
+         RowBox[{#2, ",", "After"}], "]"}]}], "]"}]& )]], "Output",
+ CellChangeTimes->{{3.603908607911311*^9, 3.6039086211076307`*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"ListPlot", "[", "\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"Legended", "[", 
+      RowBox[{
+       RowBox[{"Table", "[", 
+        RowBox[{
+         RowBox[{"{", 
+          RowBox[{
+           RowBox[{"entry", "[", "\"\<VariableCount\>\"", "]"}], ",", 
+           RowBox[{
+            RowBox[{"entry", "[", "\"\<QuasiNewton\>\"", "]"}], "[", 
+            "\"\<EvaluationCount\>\"", "]"}]}], "}"}], ",", 
+         RowBox[{"{", 
+          RowBox[{"entry", ",", 
+           RowBox[{"Last", "/@", "res"}]}], "}"}]}], "]"}], ",", 
+       "\"\<QuasiNewton\>\""}], "]"}], ",", 
+     RowBox[{"Legended", "[", 
+      RowBox[{
+       RowBox[{"Table", "[", 
+        RowBox[{
+         RowBox[{"{", 
+          RowBox[{
+           RowBox[{"entry", "[", "\"\<VariableCount\>\"", "]"}], ",", 
+           RowBox[{
+            RowBox[{"entry", "[", "\"\<PolakRibiere\>\"", "]"}], "[", 
+            "\"\<EvaluationCount\>\"", "]"}]}], "}"}], ",", 
+         RowBox[{"{", 
+          RowBox[{"entry", ",", 
+           RowBox[{"Last", "/@", "res"}]}], "}"}]}], "]"}], ",", 
+       "\"\<PolakRibiere\>\""}], "]"}]}], "}"}], ",", 
+   RowBox[{"AxesLabel", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{"\"\<Number of Variables\>\"", ",", "\"\<Evaluation Count\>\""}],
+      "}"}]}]}], "]"}]], "Input"],
+
+Cell[BoxData[
+ TemplateBox[{GraphicsBox[{{}, {{}, {
+       RGBColor[0.3315753, 0.4561011, 0.6388182], 
+       AbsoluteThickness[1.5], 
+       StyleBox[
+        PointBox[CompressedData["
+1:eJwt1X9M1HUcx/Fvav4qFX9EtFAPga050mu6eWZtd4UT/+p0ujmHCg6zmFOE
+02FD+Zo26ZaK6MAy9RRQ/IUnSmqZXQaUzsnRFnPlj5vhPBvpmZedGpp9ni82
+9trjPu/P+/P+cHzv0hYum7mol2VZ5c9+/09+ZrhNxHaQ9mzSsV+eS+Y1yrlk
+4rDq8snKZtJdQB79mgwsIp3fq/5D8sA5MrSErG3TOUtN2vmt6recDF4ki0rI
+9LDqfWS3HFrJflenzl1F/qz97o/IBVqPlVH/pEPnlJsMObRearN+4rLq1+JG
+rdvrqE+XX1uPn7+Kw5+Qa66rfoP63dA8FeTEW2R/v0n3czfxT37d+7bm+4ws
+7CIbNnHezd8172b8hvqFKnHSH5pnC+mN6fwq5imL4tytJvOc93DZNpOBft04
+jiMP7uOMatZr1C+3xmTSL9p/BUeG/4Udn5MrtP+DL7jvwgSOyf3jOOdL5q/S
+/rqdzOv5B7t2mfTO+xcHdnOe5yH2B0zGUtW/E7uyLI9x9R5eT1O/LrnnEXlw
+L+ePVn1xrbGjTf1bcKS8F+vb6jRnj+5Xz/4dmu8stqqfKPdx3xqd7+O5Cz/t
+Q79LOPCgL25q4L6N8vYD7Lum8xPYubg37jpoXHRS7jxkbPsGYhfPcSQ4ADuP
+GM9Z+gIey3Mfiqq+Etttqq86ynx/y9OCxnk9g/BabE8YgvseMy71J+G3sHun
+7tOKUz7VurfJOJgxGFfIg9U/+bhx7M1huB47xuq86zhRo37FJ5h3gvb343PL
+fmc4fhdHXtf+X7HbNwL7vqLeO1Tvh/z2S/i9k8Ytyar/E1dO13zjTlHfnIzb
+cXCN1ktOG1tTNG8zDtZqvlw+V5PupuA+3xiHe+QcvH7SyziOGya9giefMS6a
+qvUoDide1f/Tt6ynp+IIzrih9a1njQsG6r7TvzN2OdW/ClvZ1NuZIePEeNbt
+j/GIVtU34O7eDr0ffE+kbBiFF+Os+8xjb8Rev/rfwfYd9ZtxztjdwX67FNsF
+I/EVXLRZ/T0/GMdm676FuG3jGBzG0Uvstx7ivFWjcX6L8cQpqr+AHY/UL45n
+tabj+XyvRbLSmOc8bjokx3HO+/w97Hx9L47T/nacfSGT9cf4xSjn24U/Ghes
+Zt36DedkZ3r+A9W4gTQ=
+         "]], FontFamily -> "Arial"]}, {
+       RGBColor[0.7926498, 0.5499369, 0.1278459], 
+       AbsoluteThickness[1.5], 
+       StyleBox[
+        PointBox[CompressedData["
+1:eJwtlWlIVFEYhm+b+jMKgv7EBG0EidBmIXGtoKIibREKkbGSSqJFJSyEbhtG
+q2mpSdnNzNSyzLJ9mdJWXCYx2yQn22yfaqgpK6r7vAPy8Mz7fd85l7nn2H/+
+8plJXQ3DWPvv7z/5xJpwB7TmyAvk88RcMR7elrsSoecwNBfCrCJoJ+n7ctUv
+gbVl6lsK/aXQvQyWnVbfShhRBVekwhFnVZ8G11Rq3iqYcFF9q2H3K5q3Bqaq
+358BByuvXAtzL8B0S+teUv06eLYGWhscWk0efMhG2Pc69G6ChbWqz4R5t7Sf
+zXCX8rAtzItqwG/jxuw67W+bnv8uLOV3s5bK03fCiY3QkwXHyb27NMer9bPh
+s3swPod54U14xm6H5p1mPCBvUv0A3gPPtAfqz8O99/FW3Khoga69sFj1i3nP
+zAHK/XrvEh/ByfvgeOXF+2GM8shCh76ZPtw+wP73tONbbPazU/UtuHGsFeYe
+ZP2x6n+BG8mPYXkR+dxneMoh5ueovhb3DNN6u4thx3M9H+fCU63+Kzon75Xn
+ljCvVweedgTPf4U3yEe9wKs4J+6al3i+zlHcGxjETfc7PQ/nzjX/rZ7/KPuJ
+fI1HHmN+UOtFVMDh6h96nPzQJzwLN9qVZ59gvXr5JM6h2duPr9O5jPoIQ06y
+fvN7fY/7DM2/gdsX5TFV2u8XfDNu/viM9znl0D9W+WHc9VR5G15pK0/hXvEd
+0f5Cq+Ggr3CCfFYAPpbnKU8749CdGcSrcGv0N3wG94rZofU+4PYg5eHnWN+l
++Y24NUaeeh6eV301bkZ9x+O5l+wv8u7cc9YB+WTcnK79BXBXSyc+hnvM6qf6
+Dtxs03r5lx1Wtv3Efbj/u+pzuCftrX/wKVdhgeqzcU/Jb9YZyL3oy/iFr8dj
+XpMbpbi3pku046HXqD+lfBEeWWE4ubUdt+q64h/xniPJjdjr5OXMs9JxI17e
+iveMo9+I1j0+qQeejJtTlXtxz8Zu+A/cCipP5N5235ffxSMseQD3/ZQn3HDc
+VaT93MGtMj1PALenKE+8Sf/UEPob8eCCUPJO3Lqk+mT9X+kfRv0T/GF9SPRf
+Lducxw==
+         "]], FontFamily -> "Arial"]}, {}}, {}}, AspectRatio -> 
+    NCache[GoldenRatio^(-1), 0.6180339887498948], Axes -> {True, True}, 
+    AxesLabel -> {
+      FormBox["\"Number of Variables\"", TraditionalForm], 
+      FormBox["\"Evaluation Count\"", TraditionalForm]}, 
+    AxesOrigin -> {0., 0.}, BaseStyle -> {FontFamily -> "Arial"}, 
+    DisplayFunction -> Identity, Frame -> {{False, False}, {False, False}}, 
+    FrameLabel -> {{None, None}, {None, None}}, 
+    FrameTicks -> {{Automatic, Automatic}, {Automatic, Automatic}}, 
+    GridLines -> {None, None}, GridLinesStyle -> Directive[
+      GrayLevel[0.5, 0.4]], ImageSize -> {597., Automatic}, 
+    LabelStyle -> {FontFamily -> "Arial"}, 
+    Method -> {"ScalingFunctions" -> None}, 
+    PlotRange -> {{0., 12214.}, {0., 714018.}}, PlotRangeClipping -> True, 
+    PlotRangePadding -> {{
+       Scaled[0.02], 
+       Scaled[0.02]}, {
+       Scaled[0.02], 
+       Scaled[0.02]}}, Ticks -> {Automatic, Automatic}],FormBox[
+    FormBox[
+     TemplateBox[{"\"QuasiNewton\"", "\"PolakRibiere\""}, "PointLegend", 
+      DisplayFunction -> (FormBox[
+        StyleBox[
+         StyleBox[
+          PaneBox[
+           TagBox[
+            GridBox[{{
+               TagBox[
+                GridBox[{{
+                   GraphicsBox[{{}, {
+                    Directive[
+                    EdgeForm[{
+                    Opacity[0.3], 
+                    GrayLevel[0]}], FontFamily -> "Arial", 
+                    AbsoluteThickness[1.5], 
+                    RGBColor[0.3315753, 0.4561011, 0.6388182]], {
+                    Directive[
+                    EdgeForm[{
+                    Opacity[0.3], 
+                    GrayLevel[0]}], FontFamily -> "Arial", 
+                    AbsoluteThickness[1.5], 
+                    RGBColor[0.3315753, 0.4561011, 0.6388182]], 
+                    PointBox[
+                    NCache[{
+                    Scaled[{
+                    Rational[1, 2], 
+                    Rational[1, 2]}]}, {
+                    Scaled[{0.5, 0.5}]}]]}}}, AspectRatio -> Full, 
+                    ImageSize -> {10, 10}, PlotRangePadding -> None, 
+                    ImagePadding -> Automatic, 
+                    BaselinePosition -> (Scaled[0.1] -> Baseline)], #}, {
+                   GraphicsBox[{{}, {
+                    Directive[
+                    EdgeForm[{
+                    Opacity[0.3], 
+                    GrayLevel[0]}], FontFamily -> "Arial", 
+                    AbsoluteThickness[1.5], 
+                    RGBColor[0.7926498, 0.5499369, 0.1278459]], {
+                    Directive[
+                    EdgeForm[{
+                    Opacity[0.3], 
+                    GrayLevel[0]}], FontFamily -> "Arial", 
+                    AbsoluteThickness[1.5], 
+                    RGBColor[0.7926498, 0.5499369, 0.1278459]], 
+                    PointBox[
+                    NCache[{
+                    Scaled[{
+                    Rational[1, 2], 
+                    Rational[1, 2]}]}, {
+                    Scaled[{0.5, 0.5}]}]]}}}, AspectRatio -> Full, 
+                    ImageSize -> {10, 10}, PlotRangePadding -> None, 
+                    ImagePadding -> Automatic, 
+                    BaselinePosition -> (Scaled[0.1] -> Baseline)], #2}}, 
+                 GridBoxAlignment -> {
+                  "Columns" -> {Center, Left}, "Rows" -> {{Baseline}}}, 
+                 AutoDelete -> False, 
+                 GridBoxDividers -> {
+                  "Columns" -> {{False}}, "Rows" -> {{False}}}, 
+                 GridBoxItemSize -> {"Columns" -> {{All}}, "Rows" -> {{All}}},
+                  GridBoxSpacings -> {
+                  "Columns" -> {{0.5}}, "Rows" -> {{0.8}}}], "Grid"]}}, 
+             GridBoxAlignment -> {"Columns" -> {{Left}}, "Rows" -> {{Top}}}, 
+             AutoDelete -> False, 
+             GridBoxItemSize -> {
+              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+             GridBoxSpacings -> {"Columns" -> {{1}}, "Rows" -> {{0}}}], 
+            "Grid"], Alignment -> Left, AppearanceElements -> None, 
+           ImageMargins -> {{5, 5}, {5, 5}}, ImageSizeAction -> 
+           "ResizeToFit"], LineIndent -> 0, StripOnInput -> False], {
+         FontFamily -> "Arial"}, Background -> Automatic, StripOnInput -> 
+         False], TraditionalForm]& ), Editable -> True, 
+      InterpretationFunction :> (RowBox[{"PointLegend", "[", 
+         RowBox[{
+           RowBox[{"{", 
+             RowBox[{
+               RowBox[{"Directive", "[", 
+                 RowBox[{
+                   RowBox[{"FontFamily", "\[Rule]", "\"Arial\""}], ",", 
+                   RowBox[{"AbsoluteThickness", "[", "1.5`", "]"}], ",", 
+                   InterpretationBox[
+                    ButtonBox[
+                    TooltipBox[
+                    GraphicsBox[{{
+                    GrayLevel[0], 
+                    RectangleBox[{0, 0}]}, {
+                    GrayLevel[0], 
+                    RectangleBox[{1, -1}]}, {
+                    RGBColor[0.3315753, 0.4561011, 0.6388182], 
+                    RectangleBox[{0, -1}, {2, 1}]}}, AspectRatio -> 1, Frame -> 
+                    True, FrameStyle -> 
+                    RGBColor[0.22105020000000003`, 0.3040674, 0.4258788], 
+                    FrameTicks -> None, PlotRangePadding -> None, ImageSize -> 
+                    Dynamic[{
+                    Automatic, 1.2 CurrentValue["FontCapHeight"]/
+                    AbsoluteCurrentValue[Magnification]}]], 
+                    "RGBColor[0.3315753, 0.4561011, 0.6388182]"], Appearance -> 
+                    None, BaseStyle -> {}, BaselinePosition -> Baseline, 
+                    DefaultBaseStyle -> {}, ButtonFunction :> 
+                    With[{WSMLink`box$ = EvaluationBox[]}, 
+                    SelectionMove[WSMLink`box$, All, Expression]; 
+                    FrontEnd`Private`$ColorSelectorInitialAlpha = 1; 
+                    FrontEnd`Private`$ColorSelectorInitialColor = 
+                    RGBColor[0.3315753, 0.4561011, 0.6388182]; 
+                    FrontEnd`Private`$ColorSelectorUseMakeBoxes = True; 
+                    MathLink`CallFrontEnd[
+                    FrontEnd`AttachCell[WSMLink`box$, 
+                    FrontEndResource["RGBColorValueSelector"], {
+                    0, {Left, Bottom}}, {Left, Top}, 
+                    "ClosingActions" -> {
+                    "SelectionDeparture", "ParentChanged", 
+                    "EvaluatorQuit"}]]], BaseStyle -> Inherited, Evaluator -> 
+                    Automatic, Method -> "Preemptive"], 
+                    RGBColor[0.3315753, 0.4561011, 0.6388182], Editable -> 
+                    False, Selectable -> False]}], "]"}], ",", 
+               RowBox[{"Directive", "[", 
+                 RowBox[{
+                   RowBox[{"FontFamily", "\[Rule]", "\"Arial\""}], ",", 
+                   RowBox[{"AbsoluteThickness", "[", "1.5`", "]"}], ",", 
+                   InterpretationBox[
+                    ButtonBox[
+                    TooltipBox[
+                    GraphicsBox[{{
+                    GrayLevel[0], 
+                    RectangleBox[{0, 0}]}, {
+                    GrayLevel[0], 
+                    RectangleBox[{1, -1}]}, {
+                    RGBColor[0.7926498, 0.5499369, 0.1278459], 
+                    RectangleBox[{0, -1}, {2, 1}]}}, AspectRatio -> 1, Frame -> 
+                    True, FrameStyle -> 
+                    RGBColor[
+                    0.5284332, 0.36662459999999997`, 0.08523060000000002], 
+                    FrameTicks -> None, PlotRangePadding -> None, ImageSize -> 
+                    Dynamic[{
+                    Automatic, 1.2 CurrentValue["FontCapHeight"]/
+                    AbsoluteCurrentValue[Magnification]}]], 
+                    "RGBColor[0.7926498, 0.5499369, 0.1278459]"], Appearance -> 
+                    None, BaseStyle -> {}, BaselinePosition -> Baseline, 
+                    DefaultBaseStyle -> {}, ButtonFunction :> 
+                    With[{WSMLink`box$ = EvaluationBox[]}, 
+                    SelectionMove[WSMLink`box$, All, Expression]; 
+                    FrontEnd`Private`$ColorSelectorInitialAlpha = 1; 
+                    FrontEnd`Private`$ColorSelectorInitialColor = 
+                    RGBColor[0.7926498, 0.5499369, 0.1278459]; 
+                    FrontEnd`Private`$ColorSelectorUseMakeBoxes = True; 
+                    MathLink`CallFrontEnd[
+                    FrontEnd`AttachCell[WSMLink`box$, 
+                    FrontEndResource["RGBColorValueSelector"], {
+                    0, {Left, Bottom}}, {Left, Top}, 
+                    "ClosingActions" -> {
+                    "SelectionDeparture", "ParentChanged", 
+                    "EvaluatorQuit"}]]], BaseStyle -> Inherited, Evaluator -> 
+                    Automatic, Method -> "Preemptive"], 
+                    RGBColor[0.7926498, 0.5499369, 0.1278459], Editable -> 
+                    False, Selectable -> False]}], "]"}]}], "}"}], ",", 
+           RowBox[{"{", 
+             RowBox[{#, ",", #2}], "}"}], ",", 
+           RowBox[{"Joined", "\[Rule]", 
+             RowBox[{"{", 
+               RowBox[{"False", ",", "False", ",", "False", ",", "False"}], 
+               "}"}]}], ",", 
+           RowBox[{"LabelStyle", "\[Rule]", 
+             RowBox[{"{", 
+               RowBox[{"FontFamily", "\[Rule]", "\"Arial\""}], "}"}]}], ",", 
+           RowBox[{"LegendLayout", "\[Rule]", "\"Column\""}], ",", 
+           RowBox[{"LegendMarkers", "\[Rule]", 
+             RowBox[{"{", 
+               RowBox[{
+                 RowBox[{"{", 
+                   RowBox[{
+                    RowBox[{"{", 
+                    RowBox[{"None", ",", "Automatic"}], "}"}], ",", 
+                    RowBox[{"{", 
+                    RowBox[{"None", ",", "Automatic"}], "}"}]}], "}"}], ",", 
+                 RowBox[{"{", 
+                   RowBox[{
+                    RowBox[{"{", 
+                    RowBox[{"False", ",", "Automatic"}], "}"}], ",", 
+                    RowBox[{"{", 
+                    RowBox[{"False", ",", "Automatic"}], "}"}]}], "}"}]}], 
+               "}"}]}]}], "]"}]& )], TraditionalForm], TraditionalForm]},
+  "Legended",
+  DisplayFunction->(GridBox[{{
+      TagBox[
+       ItemBox[
+        PaneBox[
+         TagBox[#, "SkipImageSizeLevel"], Alignment -> {Center, Baseline}, 
+         BaselinePosition -> Baseline], DefaultBaseStyle -> "Labeled"], 
+       "SkipImageSizeLevel"], 
+      ItemBox[#2, DefaultBaseStyle -> "LabeledLabel"]}}, 
+    GridBoxAlignment -> {"Columns" -> {{Center}}, "Rows" -> {{Center}}}, 
+    AutoDelete -> False, GridBoxItemSize -> Automatic, 
+    BaselinePosition -> {1, 1}]& ),
+  Editable->True,
+  InterpretationFunction->(RowBox[{"Legended", "[", 
+     RowBox[{#, ",", 
+       RowBox[{"Placed", "[", 
+         RowBox[{#2, ",", "After"}], "]"}]}], "]"}]& )]], "Output",
+ CellChangeTimes->{3.603908630659586*^9}]
 }, Open  ]]
 },
 WindowSize->{843, 709},
-WindowMargins->{{Automatic, 57}, {Automatic, 2}},
-FrontEndVersion->"10.0 for Microsoft Windows (64-bit) (March 11, 2014)",
+WindowMargins->{{Automatic, 87}, {Automatic, 34}},
+FrontEndVersion->"10.0 for Microsoft Windows (64-bit) (January 10, 2014)",
 StyleDefinitions->"Default.nb"
 ]
 (* End of Notebook Content *)
@@ -17137,10 +20620,26 @@ Cell[558, 20, 139, 1, 30, "Text"],
 Cell[700, 23, 1030221, 16905, 362, "Input"],
 Cell[1030924, 16930, 435, 11, 52, "Input"],
 Cell[1031362, 16943, 520, 11, 72, "Input"],
-Cell[1031885, 16956, 2893, 72, 212, "Input"],
 Cell[CellGroupData[{
-Cell[1034803, 17032, 95, 1, 31, "Input"],
-Cell[1034901, 17035, 3482, 81, 912, "Output"]
+Cell[1031907, 16958, 2893, 72, 212, "Input"],
+Cell[1034803, 17032, 77, 1, 31, "Output"]
+}, Open  ]],
+Cell[1034895, 17036, 308, 8, 31, "Input"],
+Cell[CellGroupData[{
+Cell[1035228, 17048, 95, 1, 31, "Input"],
+Cell[1035326, 17051, 115015, 2606, 7632, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1150378, 19662, 1446, 38, 132, "Input"],
+Cell[1151827, 19702, 14803, 288, 270, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1166667, 19995, 1376, 37, 132, "Input"],
+Cell[1168046, 20034, 12853, 255, 249, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1180936, 20294, 1330, 36, 132, "Input"],
+Cell[1182269, 20332, 13504, 267, 363, "Output"]
 }, Open  ]]
 }
 ]
