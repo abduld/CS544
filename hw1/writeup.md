@@ -6,28 +6,10 @@
 > for my class project.
 
 In this report we will examine the differences of Quasi-Newton's method and Polak Ribiere using 2 criterions.
-<!-- 3 criteria.
-The first criteria is algorithmic ---  we will look at
- the algorithm and derive the $O(n)$ complexity as long
-    as some insights as to wether the algorithm is parallizable.
-The second would -->
-    We will then look at how efficient it is at finding the solution.
+We will then look at how efficient it is at finding the solution.
 To facilitate this, we will be finding the minimum for a function of two variables.
 The final criteria is how well it performs in practice for a sample application.
 We will use Poisson blending of two images here.
-
-<!--------
-
-## Algorithmic Exploration
-
-Given a function $f : $
-
-### Quasi-Newton's Method
-
-
-### Polak Ribiere
-
------------------------------>
 
 ## Exploration in 2D
 
@@ -85,5 +67,45 @@ with `idx` being an auxilary function defined by
     idx(ii, jj) := ii*(N*N) + jj
 
 It is clear that $A$ is a very sparse matrix with at most $4$ entries in each row.
+
+### Poisson Blending Results
+
 We now evaluate solving for $x$ using both Quasi-Newton and Polak Ribiere based least squares solver.
 We will varry the number of unknown by resizing the input images.
+
+
+Figure \ref{fig:step}
+
+\begin{figure}[t!]
+\includegraphics[scale=0.16]{step.pdf}
+\caption{The number of steps taken to solve the linear squares problem as we vary the number of variables being solved.}
+\label{fig:time}
+\centering
+\end{figure}
+
+Figure \ref{fig:eval} show the number of times 
+
+\begin{figure}[t!]
+\includegraphics[scale=0.16]{eval.pdf}
+\caption{The number of times the function has been evaluated as we vary the number of variables being solved.}
+\label{fig:time}
+\centering
+\end{figure}
+
+The previous two measures contribute the effective execusion time of the algorithm. Figure \ref{fig:time} shows the execution times in seconds.
+As can be seen, Polak Ribiere is around 2 to 2.5 times faster than Quasi-Newton.
+
+\begin{figure}[t!]
+\includegraphics[scale=0.16]{time.pdf}
+\caption{The time to solve the linear squares problem as we vary the number of variables being solved.}
+\label{fig:time}
+\centering
+\end{figure}
+
+## Conclusion
+
+Based on the experiments, Polak Ribiere outperfromed Quasi-Newton in the evaluation time, step count, and evaluation count metrics.
+We expect that Quasi-Newton to take less memory than Polak Ribiere, but that
+    has not been measured.
+So, to answer the original question, I would choose Polak Ribiere as my go-to
+    method to solve linear least squares.
