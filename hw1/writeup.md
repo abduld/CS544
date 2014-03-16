@@ -20,7 +20,7 @@ As can be observed, Newton's method takes more steps but evaluates the function
 Polak Ribier take less steps and evaluates the equation more times.
 
 \begin{figure}[t!]
-\includegraphics[scale=0.16, angle=90]{exp.png}
+\includegraphics[scale=0.16]{exp.png}
 \caption{Experimentation between Quasi-Newton and Polak Ribiere. The first column shows the function to be minimized, the second show the Quasi-Newton results, and the third show the results from Polak Ribiere.}
 \label{fig:exp}
 \centering
