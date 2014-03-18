@@ -1,3 +1,6 @@
+% Abdul Dakkak
+% CS544 --- MP 1
+
 
 > My research area is compilers and architecture. 
 > Attempts were made to apply optimization to my area, but they were 
@@ -20,10 +23,10 @@ As can be observed, Newton's method takes more steps but evaluates the function
 Polak Ribier take less steps and evaluates the equation more times.
 
 \begin{figure}[t!]
-\includegraphics[scale=0.16]{exp.png}
+\centering
+\includegraphics[scale=0.05]{exp.png}
 \caption{Experimentation between Quasi-Newton and Polak Ribiere. The first column shows the function to be minimized, the second show the Quasi-Newton results, and the third show the results from Polak Ribiere.}
 \label{fig:exp}
-\centering
 \end{figure}
 
 Figuring out which one to choose in this case would be dependent on how complicated the function is.
@@ -38,10 +41,12 @@ The Poisson blending method performs a cut and paste image operation from
     $S$ to $T$ minimizing the variation at the boundary.
 Mathematically, we want to minimize the variation within the mask within
     the contraint that the boundary values must come from the target image.
-    
+ 
 $$
-\underset{f}{\text{min}} \iint\limits_\Omega \lvert* \del f \rvert*^6 \text{ with } f* \lvert_{\partial \Omega} = f \lvert_{\partial \Omega}
+\underset{f}{\text{min}} \iint \limits_\Omega \|  f \|
 $$
+
+with $f^* \lvert_{\partial \Omega} = f \lvert_{ \partial \Omega}$
 
 This is a least squares minimization problem that can be solved
     by constructing the equation $Ax = b$ and solving for $x$.
@@ -50,17 +55,19 @@ Where $x$ is an $N \times N$ vector corresponding to the output pixels,
     to the constraints, and $b$ corresponds to the known values.
 The matrix $A$ is constructed by
 
-    for ii from 0 to N:
-        for jj from 0 to N:
-            A[idx(ii, jj), idx(ii, jj)] = -4
-            B[idx(ii, jj)] = 4*S[ii, jj] - S[ii + 1, jj + 1] -
-                               S[ii + 1, jj - 1] - S[ii - 1, jj + 1] +
-                               S[ii - 1, jj - 1]
-            for (x,y) in [(1, 1), (-1, -1), (1, -1), (-1, 1)] :
-                if M[ii + x, jj + y] == 0
-                    A[idx(ii, jj), idx(ii + x, jj + y)] = -1
-                else
-                    B[idx(ii + y, jj + x)] -= T[ii + x,jj + y]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+for ii from 0 to N:
+    for jj from 0 to N:
+        A[idx(ii, jj), idx(ii, jj)] = -4
+        B[idx(ii, jj)] = 4*S[ii, jj] - S[ii + 1, jj + 1] -
+                           S[ii + 1, jj - 1] - S[ii - 1, jj + 1] +
+                           S[ii - 1, jj - 1]
+        for (x,y) in [(1, 1), (-1, -1), (1, -1), (-1, 1)] :
+            if M[ii + x, jj + y] == 0
+                A[idx(ii, jj), idx(ii + x, jj + y)] = -1
+            else
+                B[idx(ii + y, jj + x)] -= T[ii + x,jj + y]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 with `idx` being an auxilary function defined by
 
@@ -73,33 +80,34 @@ It is clear that $A$ is a very sparse matrix with at most $4$ entries in each ro
 We now evaluate solving for $x$ using both Quasi-Newton and Polak Ribiere based least squares solver.
 We will varry the number of unknown by resizing the input images.
 
-
-Figure \ref{fig:step}
-
+<!--
 \begin{figure}[t!]
 \includegraphics[scale=0.16]{step.pdf}
 \caption{The number of steps taken to solve the linear squares problem as we vary the number of variables being solved.}
 \label{fig:time}
 \centering
 \end{figure}
+-->
 
-Figure \ref{fig:eval} show the number of times 
+![The number of steps taken to solve the linear squares problem as we vary the number of variables being solved.](step.pdf)
+
 
 \begin{figure}[t!]
-\includegraphics[scale=0.16]{eval.pdf}
-\caption{The number of times the function has been evaluated as we vary the number of variables being solved.}
-\label{fig:time}
 \centering
+\includegraphics{eval.pdf}
+\caption{The number of times the function has been evaluated as we vary the number of variables being solved.}
+\label{fig:eval}
 \end{figure}
+
 
 The previous two measures contribute the effective execusion time of the algorithm. Figure \ref{fig:time} shows the execution times in seconds.
 As can be seen, Polak Ribiere is around 2 to 2.5 times faster than Quasi-Newton.
 
 \begin{figure}[t!]
-\includegraphics[scale=0.16]{time.pdf}
+\centering
+\includegraphics{time.pdf}
 \caption{The time to solve the linear squares problem as we vary the number of variables being solved.}
 \label{fig:time}
-\centering
 \end{figure}
 
 ## Conclusion
