@@ -1,0 +1,111 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Arsclassica Article
+% LaTeX Template
+% Version 1.0 (21/4/14)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Lorenzo Pantieri (http://www.lorenzopantieri.net) with extensive modifications by:
+% Vel (vel@latextemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[
+10pt, % Main document font size
+letterpaper, % Paper type, use 'letterpaper' for US Letter paper
+oneside, % One page layout (no page indentation)
+%twoside, % Two page layout (page indentation for binding and different headers)
+headinclude,footinclude, % Extra spacing for the header and footer
+BCOR5mm, % Binding correction
+]{scrartcl}
+
+\input{structure.tex} % Include the structure.tex file which specified the document structure and layout
+
+
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{color}
+
+\definecolor{mygray}{rgb}{0.4,0.4,0.4}
+\definecolor{mygreen}{rgb}{0,0.8,0.6}
+\definecolor{myorange}{rgb}{1.0,0.4,0}
+
+\lstset{language=C++,
+       basicstyle=\ttfamily\scriptsize,
+       keywordstyle=\color{blue}\ttfamily,
+       stringstyle=\color{red}\ttfamily,
+       commentstyle=\color{green}\ttfamily,
+       numbers=left,
+       numbersep=5pt,
+       numberstyle=\tiny\color{mygray},
+       breaklines=true
+      }
+
+\newcommand{\fix}[1]{\texttt{\small #1}}
+
+\hyphenation{Fortran hy-phen-ation} % Specify custom hyphenation points in words with dashes where you would like hyphenation to occur, or alternatively, don't put any dashes in a word to stop hyphenation altogether
+
+%----------------------------------------------------------------------------------------
+%	TITLE AND AUTHOR(S)
+%----------------------------------------------------------------------------------------
+
+\title{\normalfont\spacedallcaps{CS544: MP2}} % The article title
+
+\author{\spacedlowsmallcaps{Abdul Dakkak}} % The article author(s) - author affiliations need to be specified in the AUTHOR AFFILIATIONS block
+
+\date{} % An optional date to appear under the author(s)
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	HEADERS
+%----------------------------------------------------------------------------------------
+
+\renewcommand{\sectionmark}[1]{\markright{\spacedlowsmallcaps{#1}}} % The header for all pages (oneside) or for even pages (twoside)
+%\renewcommand{\subsectionmark}[1]{\markright{\thesubsection~#1}} % Uncomment when using the twoside option - this modifies the header on odd pages
+\lehead{\mbox{\llap{\small\thepage\kern1em\color{halfgray} \vline}\color{halfgray}\hspace{0.5em}\rightmark\hfil}} % The header style
+
+\pagestyle{scrheadings} % Enable the headers specified in this block
+
+%----------------------------------------------------------------------------------------
+%	TABLE OF CONTENTS & LISTS OF FIGURES AND TABLES
+%----------------------------------------------------------------------------------------
+
+\maketitle % Print the title/author/date block
+
+
+\begin{figure}[h]
+\centering
+\subfloat[$C \in (0, 0.1)$]{\includegraphics[width=.3\columnwidth]{figs/6.pdf}} \quad%
+\subfloat[$C \in (0, 1)$]{\includegraphics[width=.3\columnwidth]{figs/5.pdf}} \quad%
+\subfloat[$C \in (0, 10)$]{\includegraphics[width=.3\columnwidth]{figs/7.pdf}} \quad\\
+\subfloat[$C \in (0, 100)$]{\includegraphics[width=.3\columnwidth]{figs/4.pdf}} \quad%
+\subfloat[$C \in (0, 5000)$]{\includegraphics[width=.3\columnwidth]{figs/1.pdf}} \quad%
+\subfloat[$C \in (0, 10000)$]{\includegraphics[width=.3\columnwidth]{figs/3.pdf}} \quad
+\caption{This shows the effects of modifying the $C$ value on accuracy for the MONK dataset. As can be seen, the accuracy follows an almost uniform distribution.}
+\label{fig:c}
+\end{figure}
+
+
+The short answer is no. 
+Taking $169$ training examples from the MONK dataset --- which contains $2$ classes and $6$ features --- and performing a linear SVM while varying the $C$ value we get the accuracies shown in Figure~\ref{fig:c}.
+As can be seen, the accuracies are almost uniformly distributed --- achieving between $0.7-0.85$ accuracy for almost all $C$ values.
+So, while the entire regularization path can be computed, it is seldom useful in practice.
+One can use grid search which is both easier to implement and can be parametrized more carefully -- parameterizing for compute complexity versus accuracy.
+
+The liblinear package, for example, advocate the use of grid search because (1) it is easier to implement and (2) we are more satisfied if we ``think'' we have done an exhaustive search. They take large multiples of $C$, $C \in [10, 10^2, 10^4, \ldots]$, because the algorithm's behaves similar at $C$ vs $C + \epsilon$.
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
